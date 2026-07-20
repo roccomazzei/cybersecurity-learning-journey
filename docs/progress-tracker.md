@@ -72,7 +72,7 @@ This document tracks my progress through CompTIA Security+, TryHackMe learning p
 
 ### Cyber Security 101
 
-- [ ] Started
+- [x] Started
 - [ ] In progress
 - [ ] Completed
 
