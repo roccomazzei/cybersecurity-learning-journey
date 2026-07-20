@@ -13,9 +13,9 @@ This document tracks my progress through CompTIA Security+, TryHackMe learning p
 
 ### Domain 1 — General Security Concepts
 
-- [ ] Security controls
-- [ ] CIA triad
-- [ ] Authentication, authorization, and accounting
+- [x] Security controls
+- [x] CIA triad
+- [x] Authentication, authorization, and accounting
 - [ ] Zero Trust
 - [ ] Change management
 - [ ] Cryptography
@@ -91,7 +91,7 @@ This document tracks my progress through CompTIA Security+, TryHackMe learning p
 ## Laboratory Progress
 
 - [x] Lab 0 — Git and GitHub setup
-- [ ] Lab 1 — File integrity and hashing
+- [x] Lab 1 — File integrity and hashing
 - [ ] Lab 2 — Network traffic analysis with Wireshark
 - [ ] Lab 3 — Network discovery and service analysis
 - [ ] Lab 4 — Windows event log investigation
@@ -103,7 +103,7 @@ This document tracks my progress through CompTIA Security+, TryHackMe learning p
 
 ## Portfolio Projects
 
-- [ ] File Integrity and Hashing Lab
+- [x] File Integrity and Hashing Lab
 - [ ] Network Traffic Analysis
 - [ ] Windows and Linux Log Investigation
 - [ ] Vulnerability Assessment Lab
@@ -113,4 +113,4 @@ This document tracks my progress through CompTIA Security+, TryHackMe learning p
 
 ## Next Objective
 
-Complete Lab 1: File Integrity and Hashing.
+Begin Lab 2: Network Traffic Analysis with Wireshark.
