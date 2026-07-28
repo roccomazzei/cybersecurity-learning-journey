@@ -69,11 +69,16 @@ This document tracks my progress through CompTIA Security+, TryHackMe learning p
 - [ ] Business impact analysis
 
 ## TryHackMe Progress
+### Pre-Security
+
+- [x] Started
+- [x] In progress
+- [x] Completed
 
 ### Cyber Security 101
 
 - [x] Started
-- [ ] In progress
+- [x] In progress
 - [ ] Completed
 
 ### SOC Level 1
