@@ -1,121 +1,59 @@
-# Cybersecurity Progress Tracker
+# Cybersecurity Journey — Progress Tracker
 
-This document tracks my progress through CompTIA Security+, TryHackMe learning paths, hands-on laboratories, and portfolio projects.
+This tracker follows my current hands-on learning roadmap.
 
 ## Current Focus
 
-- CompTIA Security+ SY0-701
-- TryHackMe Cyber Security 101
-- Building practical cybersecurity laboratories
-- Developing a public GitHub portfolio
+**TryHackMe Cyber Security 101**
 
-## CompTIA Security+ Progress
+Current milestone: **Networking section completed**.
 
-### Domain 1 — General Security Concepts
+The goal is to complete the full Cyber Security 101 path and then continue directly with **SOC Level 1**, documenting selected practical activities as portfolio-style labs.
 
-- [x] Security controls
-- [x] CIA triad
-- [x] Authentication, authorization, and accounting
-- [ ] Zero Trust
-- [ ] Change management
-- [ ] Cryptography
-- [ ] Hashing
-- [ ] Digital signatures
-- [ ] Certificates and PKI
+## Learning Roadmap
 
-### Domain 2 — Threats, Vulnerabilities, and Mitigations
-
-- [ ] Threat actors
-- [ ] Social engineering
-- [ ] Malware
-- [ ] Vulnerabilities
-- [ ] Indicators of compromise
-- [ ] Vulnerability scanning
-- [ ] Mitigation techniques
-- [ ] System hardening
-
-### Domain 3 — Security Architecture
-
-- [ ] Cloud architecture
-- [ ] Virtualization
-- [ ] Containers
-- [ ] Network segmentation
-- [ ] Data protection
-- [ ] Backup and recovery
-- [ ] Resilience and availability
-
-### Domain 4 — Security Operations
-
-- [ ] Secure baselines
-- [ ] Asset management
-- [ ] Vulnerability management
-- [ ] Monitoring and alerting
-- [ ] SIEM
-- [ ] EDR
-- [ ] Log analysis
-- [ ] Incident response
-- [ ] Digital forensics
-- [ ] Identity and access management
-
-### Domain 5 — Security Program Management and Oversight
-
-- [ ] Governance
-- [ ] Policies and procedures
-- [ ] Risk management
-- [ ] Compliance
-- [ ] Privacy
-- [ ] Security awareness
-- [ ] Incident response planning
-- [ ] Business impact analysis
-
-## TryHackMe Progress
-### Pre-Security
+### TryHackMe Pre Security
 
 - [x] Started
-- [x] In progress
 - [x] Completed
 
-### Cyber Security 101
+### TryHackMe Cyber Security 101
 
 - [x] Started
-- [x] In progress
-- [ ] Completed
+- [x] Networking section completed
+- [ ] Complete remaining modules
+- [ ] Complete learning path
 
-### SOC Level 1
+### TryHackMe SOC Level 1
 
-- [ ] Started
-- [ ] In progress
-- [ ] Completed
+- [ ] Start learning path
+- [ ] SOC fundamentals
+- [ ] Log analysis
+- [ ] SIEM and alert triage
+- [ ] Network security monitoring
+- [ ] Endpoint monitoring
+- [ ] Incident investigation
+- [ ] Complete learning path
 
-### Security Engineer
+## Portfolio Documentation
 
-- [ ] Started
-- [ ] In progress
-- [ ] Completed
+For selected rooms or groups of rooms, I will publish a short lab write-up focused on:
 
-## Laboratory Progress
+- what I learned
+- tools and commands used
+- practical exercise performed
+- evidence/screenshots when appropriate
+- defensive-security takeaway
 
-- [x] Lab 0 — Git and GitHub setup
-- [x] Lab 1 — File integrity and hashing
-- [ ] Lab 2 — Network traffic analysis with Wireshark
-- [ ] Lab 3 — Network discovery and service analysis
-- [ ] Lab 4 — Windows event log investigation
-- [ ] Lab 5 — Linux log investigation
-- [ ] Lab 6 — Vulnerability assessment
-- [ ] Lab 7 — System hardening
-- [ ] Lab 8 — Wazuh home SOC
-- [ ] Lab 9 — Incident response case study
+The objective is to demonstrate understanding and practical progress rather than reproduce TryHackMe walkthroughs.
 
-## Portfolio Projects
+## Independent Labs
 
-- [x] File Integrity and Hashing Lab
-- [ ] Network Traffic Analysis
-- [ ] Windows and Linux Log Investigation
-- [ ] Vulnerability Assessment Lab
-- [ ] Secure Virtual Lab Architecture
-- [ ] Wazuh Home SOC
-- [ ] Incident Response Case Study
+- [x] Git and GitHub setup
+- [x] File Integrity and Hashing
+- [ ] Additional labs derived from Cyber Security 101 topics
+- [ ] SOC-focused labs derived from SOC Level 1 topics
 
-## Next Objective
+## Next Milestone
 
-Begin Lab 2: Network Traffic Analysis with Wireshark.
+Continue **Cyber Security 101** after Networking and add the first TryHackMe-based lab entry using the repository template.
