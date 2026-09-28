@@ -1,50 +1,79 @@
 # Cybersecurity Learning Journey
 
-This repository documents my practical cybersecurity learning journey alongside my preparation for the CompTIA Security+ certification.
+Hands-on documentation of my cybersecurity learning path, currently focused on **TryHackMe Cyber Security 101** and, next, **TryHackMe SOC Level 1**.
 
-I am a Computer Engineering graduate developing hands-on skills in security operations, network analysis, system security, vulnerability management, incident response, and security engineering.
+I am a Computer Engineering graduate building practical skills for an entry-level **SOC / Cybersecurity Analyst** role. This repository is not intended to be a collection of copied walkthroughs: it documents what I learn, the tools I use, and the practical exercises I complete.
 
-## Objectives
+## Current Roadmap
 
-* Prepare for the CompTIA Security+ certification
-* Complete practical exercises on TryHackMe
-* Build independent cybersecurity laboratories
-* Document technical findings and remediation steps
-* Develop a professional cybersecurity portfolio
+| Learning path | Status | Focus |
+|---|---|---|
+| TryHackMe Pre Security | ✅ Completed | IT, networking and security foundations |
+| TryHackMe Cyber Security 101 | 🟡 In progress | Networking section completed |
+| TryHackMe SOC Level 1 | ⏳ Next | SOC operations, alert triage, logs and incident analysis |
+
+## What I Document
+
+For selected rooms and practical activities I create short lab notes containing:
+
+- objective and scenario
+- concepts learned
+- commands and tools used
+- practical observations
+- screenshots or evidence when useful
+- key takeaways and defensive-security relevance
+
+No flags, credentials, paid answers, or step-by-step solutions intended to bypass the learning process are published.
 
 ## Repository Structure
 
-* `security-plus/` — Notes and exercises organized by Security+ exam domain
-* `tryhackme-notes/` — Personal learning notes from TryHackMe rooms and learning paths
-* `labs/` — Independent cybersecurity laboratory projects
-* `scripts/` — Bash, Python, and PowerShell scripts created during the learning process
-* `docs/` — General documentation, diagrams, and progress tracking
+```text
+.
+├── tryhackme/
+│   ├── cyber-security-101/
+│   └── soc-level-1/
+├── labs/
+│   └── file-integrity-and-hashing/
+├── docs/
+│   └── progress-tracker.md
+└── templates/
+    └── thm-lab-template.md
+```
 
-## Planned Projects
+### TryHackMe
 
-* File integrity and hashing laboratory
-* Network traffic analysis with Wireshark
-* Windows and Linux log investigation
-* Vulnerability assessment laboratory
-* System hardening project
-* Wazuh home SOC
-* Incident response case study
+**Cyber Security 101**  
+My current learning path. The networking section is completed, and new practical notes will be added as I progress through the remaining modules.
 
-## Learning Path
+**SOC Level 1**  
+The next stage of the journey. This section will focus on blue-team fundamentals, SIEM concepts, log analysis, alert triage, endpoint and network monitoring, and incident investigation.
 
-1. CompTIA Security+ preparation
-2. TryHackMe Cyber Security 101
-3. TryHackMe SOC Level 1
-4. Independent defensive security projects
-5. TryHackMe Security Engineer
+### Independent Labs
 
-## Ethics and Authorization
+The repository also contains a small number of independent labs used to reinforce concepts outside the guided learning paths.
 
-All activities documented in this repository are performed exclusively in personal laboratory environments, intentionally vulnerable systems, or platforms that explicitly authorize security testing.
+Current project:
 
-No testing is performed against systems without permission.
+- [File Integrity and Hashing](labs/file-integrity-and-hashing/README.md)
 
-## Disclaimer
+## Skills Being Developed
 
-This repository contains personal notes and original laboratory work. It does not contain certification exam questions, TryHackMe flags, paid course solutions, credentials, or confidential information.
+- TCP/IP and network fundamentals
+- DNS, DHCP, ARP, NAT and common protocols
+- Linux and Windows fundamentals
+- network reconnaissance and traffic analysis
+- defensive security concepts
+- log and event analysis
+- SIEM and SOC workflows
+- incident triage and investigation
+- basic scripting and command-line tooling
 
+## Progress
+
+See the [progress tracker](docs/progress-tracker.md) for the current status of the journey.
+
+## Ethics
+
+All activities documented here are performed in personal lab environments, intentionally vulnerable systems, or platforms that explicitly authorize security testing.
+
+I do not perform testing against systems without permission.
