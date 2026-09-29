@@ -6,7 +6,7 @@ This tracker follows my current hands-on learning roadmap.
 
 **TryHackMe Cyber Security 101**
 
-Current milestone: **Networking section completed**.
+Current milestone: **Sections 1–5 completed, including Networking**.
 
 The goal is to complete the full Cyber Security 101 path and then continue directly with **SOC Level 1**, documenting selected practical activities as portfolio-style labs.
 
@@ -19,9 +19,20 @@ The goal is to complete the full Cyber Security 101 path and then continue direc
 
 ### TryHackMe Cyber Security 101
 
-- [x] Started
-- [x] Networking section completed
-- [ ] Complete remaining modules
+- [x] Section 1 — Start Your Cyber Security Journey
+- [x] Section 2 — Linux Fundamentals
+- [x] Section 3 — Windows and AD Fundamentals
+- [x] Section 4 — Command Line
+- [x] Section 5 — Networking
+- [ ] Section 6 — Cryptography
+- [ ] Section 7 — Exploitation Basics
+- [ ] Section 8 — Web Hacking
+- [ ] Section 9 — Offensive Security Tooling
+- [ ] Section 10 — Defensive Security
+- [ ] Section 11 — Security Solutions
+- [ ] Section 12 — Defensive Security Tooling
+- [ ] Section 13 — Build Your Cyber Security Career
+- [ ] Section 14 — OWASP Top 10 (2025)
 - [ ] Complete learning path
 
 ### TryHackMe SOC Level 1
@@ -37,13 +48,16 @@ The goal is to complete the full Cyber Security 101 path and then continue direc
 
 ## Portfolio Documentation
 
-For selected rooms or groups of rooms, I will publish a short lab write-up focused on:
+All Cyber Security 101 rooms are tracked in the path README.
 
-- what I learned
-- tools and commands used
-- practical exercise performed
-- evidence/screenshots when appropriate
-- defensive-security takeaway
+Detailed write-ups are created only for selected rooms or grouped activities that demonstrate practical value, including:
+
+- commands and tools used
+- practical exercises performed
+- troubleshooting
+- investigation steps
+- evidence/screenshots
+- defensive-security or SOC relevance
 
 The objective is to demonstrate understanding and practical progress rather than reproduce TryHackMe walkthroughs.
 
@@ -51,9 +65,10 @@ The objective is to demonstrate understanding and practical progress rather than
 
 - [x] Git and GitHub setup
 - [x] File Integrity and Hashing
-- [ ] Additional labs derived from Cyber Security 101 topics
-- [ ] SOC-focused labs derived from SOC Level 1 topics
+- [ ] Backfill selected labs from Cyber Security 101 Sections 1–5
+- [ ] Additional labs from the remaining Cyber Security 101 sections
+- [ ] SOC-focused labs derived from SOC Level 1
 
 ## Next Milestone
 
-Continue **Cyber Security 101** after Networking and add the first TryHackMe-based lab entry using the repository template.
+Start **Cyber Security 101 — Section 6: Cryptography** and progressively add selected labs from the completed sections.
