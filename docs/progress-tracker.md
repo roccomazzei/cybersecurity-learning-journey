@@ -61,13 +61,10 @@ Detailed write-ups are created only for selected rooms or grouped activities tha
 
 The objective is to demonstrate understanding and practical progress rather than reproduce TryHackMe walkthroughs.
 
-## Independent Labs
+## Portfolio Labs
 
-- [x] Git and GitHub setup
-- [x] File Integrity and Hashing
 - [x] Networking — Basic Network Traffic Analysis
 - [ ] Add selected labs from later Cyber Security 101 sections
-- [ ] Additional labs from the remaining Cyber Security 101 sections
 - [ ] SOC-focused labs derived from SOC Level 1
 
 ## Next Milestone

@@ -32,8 +32,6 @@ No flags, credentials, paid answers, or step-by-step solutions intended to bypas
 ├── tryhackme/
 │   ├── cyber-security-101/
 │   └── soc-level-1/
-├── labs/
-│   └── file-integrity-and-hashing/
 ├── docs/
 │   └── progress-tracker.md
 └── templates/
@@ -47,14 +45,6 @@ My current learning path. The networking section is completed, and new practical
 
 **SOC Level 1**  
 The next stage of the journey. This section will focus on blue-team fundamentals, SIEM concepts, log analysis, alert triage, endpoint and network monitoring, and incident investigation.
-
-### Independent Labs
-
-The repository also contains a small number of independent labs used to reinforce concepts outside the guided learning paths.
-
-Current project:
-
-- [File Integrity and Hashing](labs/file-integrity-and-hashing/README.md)
 
 ## Skills Being Developed
 
