@@ -1,47 +1,129 @@
 # TryHackMe — Cyber Security 101
 
 **Status:** 🟡 In progress  
-**Current milestone:** Networking section completed
+**Current milestone:** Sections 1–5 completed — Networking finished
 
-This section documents selected practical activities from the TryHackMe Cyber Security 101 learning path.
+This section tracks my progress through the TryHackMe Cyber Security 101 learning path and links selected hands-on activities to portfolio-style lab notes.
 
-## Progress
+## Completed Sections
 
-- [x] Networking section
-- [ ] Remaining Cyber Security 101 modules
-- [ ] Full path completed
+### 1. Start Your Cyber Security Journey ✅
 
-## Networking — Completed
+- [x] Offensive Security Intro
+- [x] Defensive Security Intro
+- [x] Search Skills
 
-Topics reinforced during this section include:
+### 2. Linux Fundamentals ✅
 
-- TCP/IP fundamentals
-- IP addressing and subnetting
-- ARP
-- DHCP
-- DNS
-- routing and default gateways
-- NAT
-- common ports and protocols
-- basic network troubleshooting
-- network scanning concepts
+- [x] Linux Fundamentals Part 1
+- [x] Linux Fundamentals Part 2
+- [x] Linux Fundamentals Part 3
 
-## Lab Entries
+### 3. Windows and AD Fundamentals ✅
 
-Lab write-ups will be added here only when they provide useful evidence of practical understanding.
+- [x] Windows Fundamentals 1
+- [x] Windows Fundamentals 2
+- [x] Windows Fundamentals 3
+- [x] Active Directory Basics
 
-Planned format:
+### 4. Command Line ✅
 
-```text
-cyber-security-101/
-├── README.md
-├── networking/
-│   └── <lab-name>/
-│       ├── README.md
-│       └── screenshots/
-└── ...
-```
+- [x] Windows Command Line
+- [x] Windows PowerShell
+- [x] Linux Shells
+
+### 5. Networking ✅
+
+- [x] Networking Concepts
+- [x] Networking Essentials
+- [x] Networking Core Protocols
+- [x] Networking Secure Protocols
+- [x] Wireshark: The Basics
+- [x] Tcpdump: The Basics
+- [x] Nmap: The Basics
+
+## Upcoming Sections
+
+### 6. Cryptography
+
+- [ ] Cryptography Basics
+- [ ] Public Key Cryptography Basics
+- [ ] Hashing Basics
+- [ ] John the Ripper: The Basics
+
+### 7. Exploitation Basics
+
+- [ ] Moniker Link (CVE-2024-21413)
+- [ ] Metasploit: Introduction
+- [ ] Metasploit: Exploitation
+- [ ] Metasploit: Meterpreter
+- [ ] Blue
+
+### 8. Web Hacking
+
+- [ ] Web Application Basics
+- [ ] JavaScript Essentials
+- [ ] SQL Fundamentals
+- [ ] Burp Suite: The Basics
+
+### 9. Offensive Security Tooling
+
+- [ ] Hydra
+- [ ] Gobuster: The Basics
+- [ ] Shells Overview
+- [ ] SQLMap: The Basics
+
+### 10. Defensive Security
+
+- [ ] Defensive Security Intro
+- [ ] SOC Fundamentals
+- [ ] Digital Forensics Fundamentals
+- [ ] Incident Response Fundamentals
+- [ ] Logs Fundamentals
+
+### 11. Security Solutions
+
+- [ ] Introduction to SIEM
+- [ ] Firewall Fundamentals
+- [ ] IDS Fundamentals
+- [ ] Vulnerability Scanner Overview
+
+### 12. Defensive Security Tooling
+
+- [ ] CyberChef: The Basics
+- [ ] CAPA: The Basics
+- [ ] REMnux: Getting Started
+- [ ] FlareVM: Arsenal of Tools
+
+### 13. Build Your Cyber Security Career
+
+- [ ] Security Principles
+- [ ] Careers in Cyber
+- [ ] Training Impact on Teams
+
+### 14. OWASP Top 10 (2025)
+
+- [ ] OWASP Top 10 2025: IAAA Failures
+- [ ] OWASP Top 10 2025: Application Design Flaws
+- [ ] OWASP Top 10 2025: Insecure Data Handling
+
+## Portfolio Lab Strategy
+
+Every completed room is tracked above, but not every room needs a full write-up.
+
+Detailed lab notes are reserved for activities that demonstrate practical skills, useful commands, troubleshooting, investigation, or security tooling.
+
+Good candidates from the sections already completed include:
+
+- Linux command-line exercises
+- Windows PowerShell
+- Active Directory Basics
+- Wireshark packet analysis
+- Tcpdump traffic capture
+- Nmap scanning and service discovery
+
+This keeps the repository complete without turning it into a collection of copied room walkthroughs.
 
 ## Next Step
 
-Continue the Cyber Security 101 path after Networking and document the next useful hands-on activity.
+Continue with **Section 6 — Cryptography** while progressively backfilling selected practical labs from Sections 1–5.
