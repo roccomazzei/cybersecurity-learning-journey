@@ -30,9 +30,7 @@ The Kali Linux VM was connected through the `eth0` interface.
 
 ### Network configuration
 
-![Network interface](screenshots/01-network-interface.jpg)
 
-![Routing table](screenshots/02-routing-table.jpg)
 
 ## Traffic Generation
 
@@ -48,7 +46,6 @@ dig example.com
 
 The resolver used by the VM was `10.211.55.1`. The query returned IPv4 addresses for `example.com`.
 
-![DNS resolution](screenshots/03-dns-resolution.jpg)
 
 ### HTTP and HTTPS
 
@@ -61,13 +58,12 @@ curl -I https://example.com
 
 The HTTP request used TCP port 80, while the HTTPS request used TCP port 443.
 
-![HTTP and HTTPS requests](screenshots/04-http-https.jpg)
 
 ## Packet Analysis
 
 The traffic was captured with `tcpdump` and analyzed in Wireshark.
 
-The packet capture itself is **not published** in this repository. Only selected screenshots and observations are included.
+The packet capture itself is **not published** in this repository. The write-up records only the relevant observations from the controlled lab traffic.
 
 ### ICMP
 
@@ -81,7 +77,6 @@ I identified ICMP Echo Requests sent from the Kali VM to the default gateway and
 
 This reinforced the request/reply behavior used by `ping` and showed that ICMP works directly over IP rather than using TCP or UDP ports.
 
-![ICMP analysis](screenshots/05-icmp-analysis.jpg)
 
 ### DNS
 
@@ -95,7 +90,6 @@ I identified DNS queries from the Kali VM to the resolver on port 53 and the cor
 
 The packet details show the client using an ephemeral source port and destination port `53`.
 
-![DNS analysis](screenshots/06-dns-analysis.jpg)
 
 ### TCP Three-Way Handshake
 
@@ -109,7 +103,6 @@ In the captured HTTP connection, the Kali VM used ephemeral source port `59864` 
 
 The HTTPS connection used the same TCP handshake concept before TLS communication began on destination port `443`.
 
-![TCP handshake](screenshots/07-tcp-handshake.jpg)
 
 ## Key Takeaways
 
