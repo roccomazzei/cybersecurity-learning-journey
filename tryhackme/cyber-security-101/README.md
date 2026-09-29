@@ -42,6 +42,8 @@ This section tracks my progress through the TryHackMe Cyber Security 101 learnin
 - [x] Tcpdump: The Basics
 - [x] Nmap: The Basics
 
+**Portfolio lab:** [Lab 01 — Basic Network Traffic Analysis](networking/basic-network-traffic-analysis/README.md)
+
 ## Upcoming Sections
 
 ### 6. Cryptography
@@ -113,17 +115,14 @@ Every completed room is tracked above, but not every room needs a full write-up.
 
 Detailed lab notes are reserved for activities that demonstrate practical skills, useful commands, troubleshooting, investigation, or security tooling.
 
-Good candidates from the sections already completed include:
+Completed portfolio labs:
 
-- Linux command-line exercises
-- Windows PowerShell
-- Active Directory Basics
-- Wireshark packet analysis
-- Tcpdump traffic capture
-- Nmap scanning and service discovery
+- [Lab 01 — Basic Network Traffic Analysis](networking/basic-network-traffic-analysis/README.md)
+
+Future labs will be selected only when they add practical portfolio value and avoid duplicating the separate sysadmin learning repository.
 
 This keeps the repository complete without turning it into a collection of copied room walkthroughs.
 
 ## Next Step
 
-Continue with **Section 6 — Cryptography** while progressively backfilling selected practical labs from Sections 1–5.
+Continue with **Section 6 — Cryptography**. The Networking section now includes its first portfolio lab.
