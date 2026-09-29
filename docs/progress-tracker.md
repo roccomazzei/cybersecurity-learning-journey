@@ -65,10 +65,11 @@ The objective is to demonstrate understanding and practical progress rather than
 
 - [x] Git and GitHub setup
 - [x] File Integrity and Hashing
-- [ ] Backfill selected labs from Cyber Security 101 Sections 1–5
+- [x] Networking — Basic Network Traffic Analysis
+- [ ] Add selected labs from later Cyber Security 101 sections
 - [ ] Additional labs from the remaining Cyber Security 101 sections
 - [ ] SOC-focused labs derived from SOC Level 1
 
 ## Next Milestone
 
-Start **Cyber Security 101 — Section 6: Cryptography** and progressively add selected labs from the completed sections.
+Start **Cyber Security 101 — Section 6: Cryptography**. Networking now has a completed portfolio lab.
