@@ -1,7 +1,7 @@
 # TryHackMe — Cyber Security 101
 
 **Status:** 🟡 In progress  
-**Current milestone:** Sections 1–5 completed — Networking finished
+**Current milestone:** Sections 1–6 completed — Cryptography finished
 
 This section tracks my progress through the TryHackMe Cyber Security 101 learning path and links selected hands-on activities to portfolio-style lab notes.
 
@@ -44,14 +44,14 @@ This section tracks my progress through the TryHackMe Cyber Security 101 learnin
 
 **Portfolio lab:** [Lab 01 — Basic Network Traffic Analysis](networking/basic-network-traffic-analysis/README.md)
 
+### 6. Cryptography ✅
+
+- [x] Cryptography Basics
+- [x] Public Key Cryptography Basics
+- [x] Hashing Basics
+- [x] John the Ripper: The Basics
+
 ## Upcoming Sections
-
-### 6. Cryptography
-
-- [ ] Cryptography Basics
-- [ ] Public Key Cryptography Basics
-- [ ] Hashing Basics
-- [ ] John the Ripper: The Basics
 
 ### 7. Exploitation Basics
 
@@ -125,4 +125,4 @@ This keeps the repository complete without turning it into a collection of copie
 
 ## Next Step
 
-Continue with **Section 6 — Cryptography**. The Networking section now includes its first portfolio lab.
+Complete **Lab 02 — Cryptography and Password Security**, then continue with **Section 7 — Exploitation Basics**.
