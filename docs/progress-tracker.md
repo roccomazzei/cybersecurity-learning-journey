@@ -6,7 +6,7 @@ This tracker follows my current hands-on learning roadmap.
 
 **TryHackMe Cyber Security 101**
 
-Current milestone: **Sections 1–5 completed, including Networking**.
+Current milestone: **Sections 1–6 completed, including Cryptography**.
 
 The goal is to complete the full Cyber Security 101 path and then continue directly with **SOC Level 1**, documenting selected practical activities as portfolio-style labs.
 
@@ -24,7 +24,7 @@ The goal is to complete the full Cyber Security 101 path and then continue direc
 - [x] Section 3 — Windows and AD Fundamentals
 - [x] Section 4 — Command Line
 - [x] Section 5 — Networking
-- [ ] Section 6 — Cryptography
+- [x] Section 6 — Cryptography
 - [ ] Section 7 — Exploitation Basics
 - [ ] Section 8 — Web Hacking
 - [ ] Section 9 — Offensive Security Tooling
@@ -69,4 +69,4 @@ The objective is to demonstrate understanding and practical progress rather than
 
 ## Next Milestone
 
-Start **Cyber Security 101 — Section 6: Cryptography**. Networking now has a completed portfolio lab.
+Complete the **Cryptography and Password Security** portfolio lab, then start **Section 7 — Exploitation Basics**.
