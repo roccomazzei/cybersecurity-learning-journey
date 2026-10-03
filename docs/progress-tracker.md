@@ -64,9 +64,10 @@ The objective is to demonstrate understanding and practical progress rather than
 ## Portfolio Labs
 
 - [x] Networking — Basic Network Traffic Analysis
+- [x] Cryptography — Cryptography and Password Security
 - [ ] Add selected labs from later Cyber Security 101 sections
 - [ ] SOC-focused labs derived from SOC Level 1
 
 ## Next Milestone
 
-Complete the **Cryptography and Password Security** portfolio lab, then start **Section 7 — Exploitation Basics**.
+Continue with **Cyber Security 101 — Section 7: Exploitation Basics**. Cryptography now has a completed portfolio lab.
