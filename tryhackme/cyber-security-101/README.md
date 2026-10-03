@@ -125,4 +125,4 @@ This keeps the repository complete without turning it into a collection of copie
 
 ## Next Step
 
-Complete **Lab 02 — Cryptography and Password Security**, then continue with **Section 7 — Exploitation Basics**.
+Continue with **Section 7 — Exploitation Basics**. The Cryptography section now includes its completed portfolio lab.
