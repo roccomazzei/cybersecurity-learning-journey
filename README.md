@@ -1,69 +1,51 @@
 # Cybersecurity Learning Journey
 
-Hands-on documentation of my cybersecurity learning path, currently focused on **TryHackMe Cyber Security 101** and, next, **TryHackMe SOC Level 1**.
+Hands-on cybersecurity portfolio focused on **TryHackMe**, practical labs, and the skills I am building toward an entry-level **SOC Analyst** role.
 
-I am a Computer Engineering graduate building practical skills for an entry-level **SOC / Cybersecurity Analyst** role. This repository is not intended to be a collection of copied walkthroughs: it documents what I learn, the tools I use, and the practical exercises I complete.
+The repository is organized by security topic so a recruiter can quickly see what I have studied and what I have practiced.
 
-## Current Roadmap
+## Current Focus
 
-| Learning path | Status | Focus |
-|---|---|---|
-| TryHackMe Pre Security | ✅ Completed | IT, networking and security foundations |
-| TryHackMe Cyber Security 101 | 🟡 In progress | Networking section completed |
-| TryHackMe SOC Level 1 | ⏳ Next | SOC operations, alert triage, logs and incident analysis |
+**TryHackMe — Cyber Security 101**
 
-## What I Document
+Completed foundations include Linux, Windows/Active Directory basics, command line, networking, cryptography, and the Metasploit learning block. Web security is currently in progress.
 
-For selected rooms and practical activities I create short lab notes containing:
-
-- objective and scenario
-- concepts learned
-- commands and tools used
-- practical observations
-- screenshots or evidence when useful
-- key takeaways and defensive-security relevance
-
-No flags, credentials, paid answers, or step-by-step solutions intended to bypass the learning process are published.
+After Cyber Security 101, the next major path will be **TryHackMe SOC Level 1**.
 
 ## Repository Structure
 
-```text
-.
-├── tryhackme/
-│   ├── cyber-security-101/
-│   └── soc-level-1/
-├── docs/
-│   └── progress-tracker.md
-└── templates/
-    └── thm-lab-template.md
-```
+| Topic | Focus | Practical work |
+|---|---|---|
+| [00 — Foundations](00-foundations/) | Linux, Windows, AD basics, command line | TryHackMe fundamentals |
+| [01 — Networking](01-networking/) | TCP/IP, DNS, HTTP/S, Wireshark, tcpdump, Nmap | [Basic Network Traffic Analysis](01-networking/basic-network-traffic-analysis/) |
+| [02 — Cryptography](02-cryptography/) | Hashing, password security, AES, RSA, signatures | [Cryptography and Password Security](02-cryptography/cryptography-and-password-security/) |
+| [03 — Exploitation](03-exploitation/) | Vulnerabilities, Metasploit, Meterpreter | TryHackMe hands-on rooms |
+| [04 — Web Security](04-web-security/) | Web basics, JavaScript, SQL, Burp Suite | In progress |
+| [05 — Offensive Security Tooling](05-offensive-security-tooling/) | Hydra, Gobuster, shells, SQLMap | Upcoming |
+| [06 — Defensive Security](06-defensive-security/) | SOC, forensics, incident response, logs | Upcoming |
+| [07 — Security Solutions](07-security-solutions/) | SIEM, firewall, IDS, vulnerability scanning | Upcoming |
+| [08 — Defensive Security Tooling](08-defensive-security-tooling/) | CyberChef, CAPA, REMnux, FlareVM | Upcoming |
+| [09 — OWASP Top 10](09-owasp-top-10/) | Common web application risks | Upcoming |
+| [10 — SOC Level 1](10-soc-level-1/) | Alert triage, monitoring, investigations | Planned next path |
 
-### TryHackMe
+## Portfolio Labs
 
-**Cyber Security 101**  
-My current learning path. The networking section is completed, and new practical notes will be added as I progress through the remaining modules.
+### Lab 01 — Basic Network Traffic Analysis
+Hands-on packet and protocol analysis with Wireshark and tcpdump, including ICMP, DNS, HTTP/HTTPS, TCP handshakes, addressing, routing, and neighbor discovery.
 
-**SOC Level 1**  
-The next stage of the journey. This section will focus on blue-team fundamentals, SIEM concepts, log analysis, alert triage, endpoint and network monitoring, and incident investigation.
+[Open Lab 01](01-networking/basic-network-traffic-analysis/)
 
-## Skills Being Developed
+### Lab 02 — Cryptography and Password Security
+Hands-on work with SHA-256 integrity checks, Hashcat, salted password hashes, AES encryption, RSA public-key cryptography, and digital signatures.
 
-- TCP/IP and network fundamentals
-- DNS, DHCP, ARP, NAT and common protocols
-- Linux and Windows fundamentals
-- network reconnaissance and traffic analysis
-- defensive security concepts
-- log and event analysis
-- SIEM and SOC workflows
-- incident triage and investigation
-- basic scripting and command-line tooling
+[Open Lab 02](02-cryptography/cryptography-and-password-security/)
 
-## Progress
+## Repository Philosophy
 
-See the [progress tracker](docs/progress-tracker.md) for the current status of the journey.
+This is not a collection of copied TryHackMe walkthroughs.
 
-## Ethics
+I document selected exercises that demonstrate practical skills, troubleshooting, tool usage, and security concepts. Detailed system-administration work is kept in my separate **IT Systems Administration Labs** repository to avoid duplication.
 
-All activities documented here are performed in personal lab environments, intentionally vulnerable systems, or platforms that explicitly authorize security testing.
+## Learning Direction
 
-I do not perform testing against systems without permission.
+**Cyber Security 101 → SOC Level 1 → SOC Analyst / Incident Response skills**
