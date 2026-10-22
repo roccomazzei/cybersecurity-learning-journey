@@ -1,25 +1,31 @@
-# 05 — Offensive Security Tooling
+# 🛠️ 05 — Offensive Security Tooling
 
-**Status: Completed**
+![Status](https://img.shields.io/badge/Status-Completed-22c55e?style=flat-square)
+![Scope](https://img.shields.io/badge/Scope-Controlled%20Labs-64748b?style=flat-square)
 
-Practical offensive-security tooling studied in controlled and authorized lab environments.
+> Practical offensive tools studied to understand reconnaissance, authentication testing, shells, and web exploitation workflows.
 
-## TryHackMe Topics
+## 🎯 TryHackMe Topics
 
 - Hydra
 - Gobuster
 - Shells Overview
 - SQLMap: The Basics
 
-## Skills and Concepts
+## 🧠 Skills Built
 
-- Authentication testing with Hydra in controlled environments
-- Directory and content discovery with Gobuster
-- Wordlist-based enumeration concepts
-- Reverse shell and bind shell concepts
-- Listener and connection fundamentals
-- SQL injection testing concepts
-- Automating SQL injection verification with SQLMap
-- Understanding tool output instead of relying only on automated results
+| Tool / area | What I learned |
+|---|---|
+| Hydra | Authentication testing with wordlists in authorized labs |
+| Gobuster | Directory and content discovery |
+| Shells | Reverse shell, bind shell and listener concepts |
+| SQLMap | Automated SQL-injection verification concepts |
+| Methodology | Reading tool output instead of relying blindly on automation |
 
-These tools are documented as supporting skills rather than separate portfolio projects. Relevant techniques will be combined into larger practical assessments where appropriate.
+## 🧰 Tools
+
+`Hydra` · `Gobuster` · `Netcat` · `SQLMap`
+
+## 🧪 Portfolio Direction
+
+Relevant techniques from this section will feed into **Lab 03 — Web Application Security Assessment** rather than becoming four separate tool demos.
