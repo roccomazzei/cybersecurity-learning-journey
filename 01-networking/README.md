@@ -1,10 +1,11 @@
-# 01 — Networking
+# 🌐 01 — Networking
 
-**Status: Completed**
+![Status](https://img.shields.io/badge/Status-Completed-22c55e?style=flat-square)
+![Lab](https://img.shields.io/badge/Portfolio-Lab%2001-0ea5e9?style=flat-square)
 
-Networking fundamentals with emphasis on understanding traffic from both troubleshooting and security perspectives.
+> Networking fundamentals viewed from both troubleshooting and security-analysis perspectives.
 
-## TryHackMe Topics
+## 🎯 TryHackMe Topics
 
 - Networking Concepts
 - Networking Essentials
@@ -14,19 +15,25 @@ Networking fundamentals with emphasis on understanding traffic from both trouble
 - Tcpdump: The Basics
 - Nmap: The Basics
 
-## Skills and Concepts
+## 🧠 Skills Built
 
-- IPv4 addressing, subnetting basics, gateways, routing, and local network communication
-- MAC addresses, ARP / neighbour discovery, ICMP, TCP, and UDP
-- TCP three-way handshake and connection behavior
-- DNS, DHCP, HTTP/HTTPS, SSH, and other common protocols
-- Common ports and service identification
-- Packet capture and filtering with Wireshark and tcpdump
-- Host, port, and service discovery with Nmap
-- Basic network troubleshooting and traffic interpretation
+| Area | Concepts |
+|---|---|
+| Network fundamentals | IPv4, subnetting basics, gateways, routing |
+| Local communication | MAC, ARP / neighbour discovery, ICMP |
+| Transport | TCP, UDP, three-way handshake |
+| Core services | DNS, DHCP, HTTP/HTTPS, SSH |
+| Traffic analysis | Packet capture, protocol identification, filtering |
+| Discovery | Host, port and service discovery |
 
-## Practical Lab
+## 🧰 Tools
 
-[Lab 01 — Basic Network Traffic Analysis](basic-network-traffic-analysis/)
+`Nmap` · `Wireshark` · `tcpdump` · `ip` · `ping` · `dig`
 
-The lab demonstrates packet and protocol analysis using Wireshark and tcpdump, including addressing, routing, ICMP, DNS, HTTP/HTTPS, and TCP handshakes.
+## 🧪 Practical Lab
+
+### Lab 01 — Basic Network Traffic Analysis
+
+Packet and protocol analysis including addressing, routing, ICMP, DNS, HTTP/HTTPS and TCP handshakes.
+
+➡️ **[Open Lab 01](basic-network-traffic-analysis/)**
