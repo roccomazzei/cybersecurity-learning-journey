@@ -13,49 +13,41 @@
 Hands-on cybersecurity portfolio focused on **TryHackMe**, selected practical labs, and the skills I am building toward an entry-level **SOC Analyst** role.
 
 > [!NOTE]
-> This repository is intentionally **not** a collection of copied walkthroughs. I document selected exercises that demonstrate practical skills, troubleshooting, security analysis, and investigation.
+> This repository is organized into **separate learning paths**, not one continuous course. Only selected exercises with clear portfolio value become full labs.
 
-## 🎯 Current Focus
+## 🧭 Learning Paths
 
-**TryHackMe — Cyber Security 101**
+### 01 — Cyber Security 101
+**Status:** Final block — OWASP Top 10
 
-All main sections are completed through defensive-security tooling. The remaining block is **OWASP Top 10**.
+General cybersecurity foundations across systems, networking, cryptography, exploitation, web security, offensive tooling, defensive security, security solutions, and analysis tooling.
 
-After Cyber Security 101, the next major path will be **TryHackMe SOC Level 1**, where selected investigations will be promoted to portfolio labs.
+➡️ **[Open Cyber Security 101](01-cyber-security-101/)**
 
-## 🧭 Learning Map
+### 02 — SOC Level 1
+**Status:** Next path
 
-| Area | Status | Main skills / tools | Portfolio work |
-|---|:---:|---|---|
-| 🖥️ [Foundations](00-foundations/) | ✅ | Linux, Windows, AD, CMD, PowerShell | Fundamentals |
-| 🌐 [Networking](01-networking/) | ✅ | TCP/IP, DNS, Nmap, Wireshark, tcpdump | [Lab 01](01-networking/basic-network-traffic-analysis/) |
-| 🔐 [Cryptography](02-cryptography/) | ✅ | Hashing, Hashcat, John, OpenSSL, AES, RSA | [Lab 02](02-cryptography/cryptography-and-password-security/) |
-| 💥 [Exploitation](03-exploitation/) | ✅ | Metasploit, payloads, sessions, Meterpreter | Selected practice |
-| 🌍 [Web Security](04-web-security/) | ✅ | HTTP, SQL, Burp Suite | Lab 03 planned |
-| 🛠️ [Offensive Tooling](05-offensive-security-tooling/) | ✅ | Hydra, Gobuster, shells, SQLMap | Lab 03 planned |
-| 🛡️ [Defensive Security](06-defensive-security/) | ✅ | SOC, logs, IR, forensics | Foundations |
-| 📡 [Security Solutions](07-security-solutions/) | ✅ | SIEM, firewall, IDS/IPS, vuln scanning | Foundations |
-| 🔬 [Defensive Tooling](08-defensive-security-tooling/) | ✅ | CyberChef, CAPA, REMnux, FlareVM | Foundations |
-| ⚠️ [OWASP Top 10](09-owasp-top-10/) | 🟡 | Web application risks | Current focus |
-| 🔵 [SOC Level 1](10-soc-level-1/) | ⏭️ | Triage, SIEM, endpoint/network monitoring | Next path |
+SOC-focused specialization covering monitoring, logs, SIEM, alert triage, network and endpoint analysis, phishing, investigations, escalation, and reporting.
+
+➡️ **[Open SOC Level 1](02-soc-level-1/)**
 
 ## 🧪 Portfolio Labs
 
 ### 01 · Basic Network Traffic Analysis
 Packet and protocol analysis with **Wireshark** and **tcpdump**, covering ICMP, DNS, HTTP/HTTPS, TCP handshakes, addressing, routing, and neighbour discovery.
 
-➡️ **[Open Lab 01](01-networking/basic-network-traffic-analysis/)**
+➡️ **[Open Lab 01](01-cyber-security-101/01-networking/basic-network-traffic-analysis/)**
 
 ### 02 · Cryptography and Password Security
 Hands-on work with **SHA-256**, **Hashcat**, salted password hashes, **AES**, **RSA**, and digital signatures.
 
-➡️ **[Open Lab 02](02-cryptography/cryptography-and-password-security/)**
+➡️ **[Open Lab 02](01-cyber-security-101/02-cryptography/cryptography-and-password-security/)**
 
 ### 03 · Web Application Security Assessment
-Planned portfolio assessment combining **Burp Suite**, web fundamentals, offensive tooling, and **OWASP** concepts in an authorized lab environment.
+Planned assessment combining **Burp Suite**, web fundamentals, offensive tooling, and **OWASP** concepts in an authorized lab environment.
 
 > [!IMPORTANT]
-> A full lab is created only when the exercise adds clear portfolio value. The goal is quality over quantity.
+> SOC Level 1 will have its own selected investigation labs. I will not create one lab for every module; the goal is a small number of realistic, recruiter-readable investigations.
 
 ## 🧰 Toolset
 
@@ -77,11 +69,11 @@ Planned portfolio assessment combining **Burp Suite**, web fundamentals, offensi
 ## 🛣️ Direction
 
 ```text
-Cyber Security 101
+01 — Cyber Security 101
         ↓
-Web Application Security Assessment
+Lab 03 — Web Application Security Assessment
         ↓
-SOC Level 1
+02 — SOC Level 1
         ↓
 Selected SOC Investigation Labs
         ↓
