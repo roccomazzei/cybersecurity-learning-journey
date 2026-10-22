@@ -1,10 +1,11 @@
-# 10 — TryHackMe SOC Level 1
+# 🔵 10 — TryHackMe SOC Level 1
 
-**Status: Planned next path**
+![Status](https://img.shields.io/badge/Status-Next%20Path-0ea5e9?style=flat-square)
+![Goal](https://img.shields.io/badge/Goal-Junior%20SOC%20Analyst-6366f1?style=flat-square)
 
-SOC Level 1 will become the main learning focus after completion of Cyber Security 101 and the selected Web Application Security Assessment lab.
+> The next major learning phase after Cyber Security 101, with emphasis on realistic monitoring, triage, and investigation workflows.
 
-## Focus
+## 🎯 Focus
 
 - SOC operations and analyst workflows
 - Log analysis
@@ -17,8 +18,25 @@ SOC Level 1 will become the main learning focus after completion of Cyber Securi
 - Incident investigation
 - Escalation and reporting
 
-## Portfolio Direction
+## 🧠 Investigation Mindset
 
-Only selected investigations with clear SOC Analyst value will become full portfolio labs.
+```text
+Alert
+  ↓
+Validate & Triage
+  ↓
+Gather Evidence
+  ↓
+Correlate Events
+  ↓
+Verdict / Severity
+  ↓
+Escalate or Close
+```
 
-The goal is not to create one lab per module, but to build a small number of realistic investigations that demonstrate triage, evidence analysis, correlation, decision-making, and reporting.
+## 🧪 Portfolio Direction
+
+Only selected investigations with clear **SOC Analyst** value will become full portfolio labs.
+
+> [!IMPORTANT]
+> The goal is not one lab per module. The portfolio will contain a small number of realistic investigations demonstrating triage, evidence analysis, correlation, decision-making, and reporting.
