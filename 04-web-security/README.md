@@ -1,26 +1,37 @@
-# 04 — Web Security
+# 🌍 04 — Web Security
 
-**Status: Completed**
+![Status](https://img.shields.io/badge/Status-Completed-22c55e?style=flat-square)
+![Lab](https://img.shields.io/badge/Feeds-Lab%2003-0ea5e9?style=flat-square)
 
-Web-security fundamentals focused on understanding how browsers, web servers, back-end applications, and databases communicate.
+> Understanding how browsers, web servers, back-end applications, and databases communicate — and where security weaknesses can appear.
 
-## TryHackMe Topics
+## 🎯 TryHackMe Topics
 
 - Web Application Basics
 - JavaScript Essentials
 - SQL Fundamentals
 - Burp Suite: The Basics
 
-## Skills and Concepts
+## 🧠 Skills Built
 
-- Client/server web architecture
-- HTTP requests and responses
-- HTTP methods, status codes, headers, parameters, cookies, and sessions
-- Basic HTML and JavaScript behavior relevant to web security
-- Relational database and SQL fundamentals
-- Understanding how user input reaches back-end systems
-- Intercepting and inspecting HTTP traffic with Burp Proxy
-- Modifying and replaying requests with Burp Repeater
-- Identifying security-relevant differences between requests and responses
+| Area | Concepts |
+|---|---|
+| HTTP | Methods, status codes, headers, parameters |
+| State | Cookies and sessions |
+| Front end | Basic HTML / JavaScript behavior relevant to security |
+| Back end | SQL fundamentals and input flow |
+| Interception | Capturing requests with Burp Proxy |
+| Manual testing | Editing and replaying requests with Burp Repeater |
 
-The web-security material will be combined with offensive tooling and OWASP concepts in a selected **Web Application Security Assessment** portfolio lab rather than creating a lab for every individual room.
+## 🧰 Tools & Technologies
+
+`HTTP` · `JavaScript` · `SQL` · `Burp Suite Proxy` · `Burp Repeater`
+
+## 🧪 Portfolio Direction
+
+This material will be combined with **Offensive Security Tooling** and **OWASP Top 10** in:
+
+### Lab 03 — Web Application Security Assessment
+
+> [!NOTE]
+> The goal is one complete, recruiter-readable assessment rather than separate mini-labs for Burp, SQL, or individual web topics.
