@@ -1,3 +1,5 @@
+<p align="right"><strong>🇬🇧 English</strong> · <a href="README_IT.md">🇮🇹 Italiano</a></p>
+
 # Lab 01 — Basic Network Traffic Analysis
 
 **Path:** TryHackMe Cyber Security 101  
