@@ -1,12 +1,20 @@
 # 09 — OWASP Top 10
 
-TryHackMe web-application security topics based on the OWASP Top 10 learning material.
+**Status: Current focus — final Cyber Security 101 block**
 
-## Planned Topics
+TryHackMe web-application security material based on common OWASP application-security risks.
 
-- Identification, authentication and authorization failures
+## Topics
+
+- Identification, authentication, and authorization failures
 - Application design flaws
 - Insecure data handling
-- Other common web application risks covered by the path
+- Injection and input-handling risks
+- Security misconfiguration
+- Other common web-application risks covered by the learning path
 
-This section complements the earlier Web Security block.
+## Portfolio Direction
+
+After completing this section, the most useful concepts will be combined with the completed Web Security and Offensive Security Tooling sections in **Lab 03 — Web Application Security Assessment**.
+
+The objective is to demonstrate a complete assessment workflow rather than create a separate lab for each OWASP category.
