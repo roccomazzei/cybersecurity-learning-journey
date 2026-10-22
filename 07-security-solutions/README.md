@@ -1,25 +1,38 @@
-# 07 — Security Solutions
+# 📡 07 — Security Solutions
 
-**Status: Completed**
+![Status](https://img.shields.io/badge/Status-Completed-22c55e?style=flat-square)
+![Focus](https://img.shields.io/badge/Focus-Detection%20%26%20Protection-0ea5e9?style=flat-square)
 
-Introduction to common security technologies used to prevent, detect, and investigate malicious activity.
+> Security technologies used to prevent, detect, centralize, and investigate suspicious activity.
 
-## TryHackMe Topics
+## 🎯 TryHackMe Topics
 
 - Introduction to SIEM
 - Firewall Fundamentals
 - IDS Fundamentals
 - Vulnerability Scanner Overview
 
-## Skills and Concepts
+## 🧠 Skills Built
 
-- Purpose of a SIEM and centralized log collection
-- Basic event correlation and alert-generation concepts
-- Firewall rules, traffic filtering, and stateful inspection concepts
-- Difference between IDS and IPS
-- Signature-based and anomaly-based detection
-- Network-security monitoring concepts
-- Vulnerability scanning and identifying known weaknesses
-- Difference between service discovery and vulnerability assessment
+| Technology | Purpose |
+|---|---|
+| SIEM | Centralized logs, correlation and alert generation |
+| Firewall | Traffic filtering and stateful inspection concepts |
+| IDS / IPS | Detection vs prevention, signatures and anomalies |
+| Vulnerability scanner | Identifying known weaknesses and exposures |
 
-This section provides the conceptual bridge into **SOC Level 1**, where SIEM, alert triage, monitoring, and investigation will be explored in greater depth.
+## 🔗 Security Flow
+
+```text
+Endpoints / Servers / Network
+            ↓
+     Logs & Network Events
+            ↓
+      SIEM / IDS / Firewall
+            ↓
+          Alert
+            ↓
+       SOC Analyst
+```
+
+This section forms the conceptual bridge into **SOC Level 1**.
