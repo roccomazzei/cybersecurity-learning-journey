@@ -1,10 +1,11 @@
-# 00 — Foundations
+# 🖥️ 00 — Foundations
 
-**Status: Completed**
+![Status](https://img.shields.io/badge/Status-Completed-22c55e?style=flat-square)
+![Focus](https://img.shields.io/badge/Focus-Systems%20%26%20CLI-64748b?style=flat-square)
 
-Core foundations completed before moving into dedicated cybersecurity topics.
+> Core operating-system and command-line foundations used throughout the rest of the cybersecurity path.
 
-## Topics Covered
+## 🎯 Topics Covered
 
 - Offensive Security introduction
 - Defensive Security introduction
@@ -16,13 +17,19 @@ Core foundations completed before moving into dedicated cybersecurity topics.
 - PowerShell
 - Linux shells
 
-## Skills and Concepts
+## 🧠 Skills Built
 
-- Linux filesystem navigation, files, permissions, processes, services, and basic administration
-- Windows system navigation, users, groups, services, processes, and system utilities
-- Active Directory concepts including domains, users, groups, organizational units, policies, and authentication basics
-- Command-line troubleshooting with Windows CMD, PowerShell, and Linux shells
-- Basic offensive-versus-defensive security concepts
-- Finding and validating technical information efficiently
+| Area | What I practiced |
+|---|---|
+| Linux | Filesystem navigation, permissions, processes, services, shell usage |
+| Windows | Users, groups, processes, services, system utilities |
+| Active Directory | Domains, users, groups, OUs, policies, authentication basics |
+| Command line | CMD, PowerShell and Linux shell troubleshooting |
+| Security mindset | Offensive vs defensive concepts and technical research |
 
-These topics are tracked here as cybersecurity foundations. More detailed Windows, Active Directory, Linux, and infrastructure administration work is documented in the separate systems-administration repository.
+## 🧰 Key Technologies
+
+`Linux` · `Windows` · `Active Directory` · `CMD` · `PowerShell` · `Bash`
+
+> [!NOTE]
+> Detailed Windows, Active Directory, Linux, and infrastructure administration is documented separately in the **IT Systems Administration Labs** repository.
