@@ -1,25 +1,29 @@
-# 08 — Defensive Security Tooling
+# 🔬 08 — Defensive Security Tooling
 
-**Status: Completed**
+![Status](https://img.shields.io/badge/Status-Completed-22c55e?style=flat-square)
+![Focus](https://img.shields.io/badge/Focus-Analysis%20Tooling-0ea5e9?style=flat-square)
 
-Introduction to practical tools and environments used for defensive analysis and malware investigation.
+> Introduction to practical environments and utilities used during defensive analysis and malware investigation.
 
-## TryHackMe Topics
+## 🎯 TryHackMe Topics
 
 - CyberChef
 - CAPA
 - REMnux
 - FlareVM
 
-## Skills and Concepts
+## 🧠 Skills Built
 
-- Decoding, encoding, hashing, and transforming data with CyberChef
-- Recognizing useful CyberChef operations during investigations
-- Static capability analysis with CAPA
-- Identifying behaviors such as networking, process execution, file activity, and persistence
-- Purpose of REMnux as a Linux malware-analysis environment
-- Purpose of FlareVM as a Windows reverse-engineering and malware-analysis environment
-- Basic static-versus-dynamic malware-analysis concepts
-- Understanding where malware-analysis tooling fits into SOC and incident-response workflows
+| Tool | Role |
+|---|---|
+| CyberChef | Decode, encode, hash and transform investigation data |
+| CAPA | Identify capabilities and behavior in executable files |
+| REMnux | Linux environment for malware analysis |
+| FlareVM | Windows environment for reverse engineering and malware analysis |
 
-These tools are tracked as defensive-analysis knowledge. More complete investigation labs will be selected during the **SOC Level 1** path rather than creating a separate lab for every tool.
+## 🧰 Analysis Concepts
+
+`Encoding / Decoding` · `Hashing` · `Static Analysis` · `Dynamic Analysis` · `Malware Behavior`
+
+> [!NOTE]
+> These tools are tracked as analysis knowledge. Complete investigation labs will be selected later during **SOC Level 1** rather than creating a lab for every utility.
