@@ -1,3 +1,5 @@
+<p align="right"><strong>🇬🇧 English</strong> · <a href="README_IT.md">🇮🇹 Italiano</a></p>
+
 # Lab 02 — Cryptography and Password Security
 
 ## Objective
