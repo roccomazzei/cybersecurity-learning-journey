@@ -1,3 +1,5 @@
+<p align="right"><strong>🇬🇧 English</strong> · <a href="README_IT.md">🇮🇹 Italiano</a></p>
+
 <p align="center">
   <img src="assets/cybersecurity-journey-banner.svg" alt="Cybersecurity Learning Journey banner" width="100%">
 </p>
