@@ -1,3 +1,5 @@
+<p align="right"><strong>🇬🇧 English</strong> · <a href="README_IT.md">🇮🇹 Italiano</a></p>
+
 # 🧭 01 — Cyber Security 101
 
 ![Status](https://img.shields.io/badge/Status-Final%20Block-f59e0b?style=flat-square)
