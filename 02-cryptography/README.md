@@ -1,10 +1,11 @@
-# 02 — Cryptography
+# 🔐 02 — Cryptography
 
-**Status: Completed**
+![Status](https://img.shields.io/badge/Status-Completed-22c55e?style=flat-square)
+![Lab](https://img.shields.io/badge/Portfolio-Lab%2002-0ea5e9?style=flat-square)
 
-Cryptography fundamentals focused on data integrity, password security, encryption, and public-key concepts.
+> Cryptography fundamentals focused on integrity, password security, encryption, and public-key concepts.
 
-## TryHackMe Topics
+## 🎯 TryHackMe Topics
 
 - Cryptography Basics
 - Public Key Cryptography Basics
@@ -12,20 +13,25 @@ Cryptography fundamentals focused on data integrity, password security, encrypti
 - John the Ripper: The Basics
 - Password-hash cracking practice in controlled labs
 
-## Skills and Concepts
+## 🧠 Skills Built
 
-- Difference between encoding, hashing, and encryption
-- Hash functions and integrity verification
-- Salting and secure password-storage concepts
-- Dictionary attacks against lab-generated hashes
-- Symmetric encryption and AES
-- Asymmetric cryptography and RSA
-- Public and private key concepts
-- Digital signatures and signature verification
-- Practical use of OpenSSL, Hashcat, and John the Ripper
+| Area | Concepts |
+|---|---|
+| Data protection | Encoding vs hashing vs encryption |
+| Integrity | Hash functions and SHA-256 verification |
+| Password security | Salts, dictionary attacks, password-hash analysis |
+| Symmetric crypto | AES encryption and decryption |
+| Asymmetric crypto | RSA, public/private keys |
+| Authenticity | Digital signatures and verification |
 
-## Practical Lab
+## 🧰 Tools
 
-[Lab 02 — Cryptography and Password Security](cryptography-and-password-security/)
+`OpenSSL` · `Hashcat` · `John the Ripper` · `sha256sum`
 
-The lab demonstrates SHA-256 integrity checks, password-hash analysis, salted hashes, AES encryption, RSA public-key cryptography, and digital signatures.
+## 🧪 Practical Lab
+
+### Lab 02 — Cryptography and Password Security
+
+Hands-on work with SHA-256, password hashes, salts, AES, RSA and digital signatures.
+
+➡️ **[Open Lab 02](cryptography-and-password-security/)**
