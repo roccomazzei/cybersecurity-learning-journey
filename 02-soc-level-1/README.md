@@ -1,3 +1,5 @@
+<p align="right"><strong>🇬🇧 English</strong> · <a href="README_IT.md">🇮🇹 Italiano</a></p>
+
 # 🔵 02 — TryHackMe SOC Level 1
 
 ![Status](https://img.shields.io/badge/Status-Next%20Path-0ea5e9?style=flat-square)
