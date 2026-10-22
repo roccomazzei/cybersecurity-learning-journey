@@ -1,10 +1,11 @@
-# 09 — OWASP Top 10
+# ⚠️ 09 — OWASP Top 10
 
-**Status: Current focus — final Cyber Security 101 block**
+![Status](https://img.shields.io/badge/Status-Current%20Focus-f59e0b?style=flat-square)
+![Milestone](https://img.shields.io/badge/Milestone-Final%20Cyber%20Security%20101%20Block-0ea5e9?style=flat-square)
 
-TryHackMe web-application security material based on common OWASP application-security risks.
+> Final Cyber Security 101 block: recognizing common web-application security risks and connecting findings to impact and remediation.
 
-## Topics
+## 🎯 Topics
 
 - Identification, authentication, and authorization failures
 - Application design flaws
@@ -13,8 +14,21 @@ TryHackMe web-application security material based on common OWASP application-se
 - Security misconfiguration
 - Other common web-application risks covered by the learning path
 
-## Portfolio Direction
+## 🔗 How It Connects
 
-After completing this section, the most useful concepts will be combined with the completed Web Security and Offensive Security Tooling sections in **Lab 03 — Web Application Security Assessment**.
+```text
+Web Fundamentals
+      +
+Burp / Offensive Tooling
+      +
+OWASP Risk Classification
+      ↓
+Lab 03 — Web Application Security Assessment
+```
 
-The objective is to demonstrate a complete assessment workflow rather than create a separate lab for each OWASP category.
+## 🧪 Portfolio Direction
+
+After completing this section, the strongest concepts will be combined with the completed Web Security and Offensive Security Tooling sections in **Lab 03**.
+
+> [!IMPORTANT]
+> The objective is a complete assessment workflow — not a separate lab for every OWASP category.
