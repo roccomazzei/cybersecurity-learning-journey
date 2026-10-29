@@ -7,6 +7,13 @@
 
 > L'intero percorso TryHackMe Cyber Security 101 è completato. Il lavoro rimanente è dedicato a trasformare le competenze selezionate in lab pratici da portfolio prima di passare a **SOC Level 1**.
 
+## 🎓 Completamento
+
+✅ **TryHackMe — Cyber Security 101 Learning Path**  
+Completato il **29 ottobre 2026** · **45 h 23 min**
+
+➡️ **[Visualizza Certificate of Completion](https://tryhackme.com/certificate/THM-MFXAZOLNRP)**
+
 ## 📚 Mappa del modulo
 
 | Sezione | Stato | Focus principale |
