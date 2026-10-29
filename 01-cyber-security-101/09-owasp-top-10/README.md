@@ -1,9 +1,9 @@
 # ⚠️ 09 — OWASP Top 10
 
-![Status](https://img.shields.io/badge/Status-Current%20Focus-f59e0b?style=flat-square)
-![Milestone](https://img.shields.io/badge/Milestone-Final%20Cyber%20Security%20101%20Block-0ea5e9?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Completed-22c55e?style=flat-square)
+![Milestone](https://img.shields.io/badge/Milestone-Cyber%20Security%20101%20Completed-0ea5e9?style=flat-square)
 
-> Final Cyber Security 101 block: recognizing common web-application security risks and connecting findings to impact and remediation.
+> Completed Cyber Security 101 block focused on recognizing common web-application security risks and connecting findings to impact and remediation.
 
 ## 🎯 Topics
 
@@ -28,7 +28,7 @@ Lab 03 — Web Application Security Assessment
 
 ## 🧪 Portfolio Direction
 
-After completing this section, the strongest concepts will be combined with the completed Web Security and Offensive Security Tooling sections in **Lab 03**.
+The strongest concepts from this completed section will now be combined with the completed Web Security and Offensive Security Tooling sections in **Lab 03**.
 
 > [!IMPORTANT]
-> The objective is a complete assessment workflow — not a separate lab for every OWASP category.
+> Cyber Security 101 is complete. The objective now is a complete assessment workflow — not a separate lab for every OWASP category.
