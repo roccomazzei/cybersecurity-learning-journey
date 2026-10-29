@@ -26,6 +26,9 @@ Portfolio pratico di cybersecurity basato su **TryHackMe**, lab selezionati e co
 
 L'intero percorso Cyber Security 101 è completato e ha coperto sistemi, networking, crittografia, exploitation, web security, tooling offensivo, sicurezza difensiva, soluzioni di sicurezza, strumenti di analisi e concetti OWASP.
 
+🎓 **Certificate of Completion:** [TryHackMe — Cyber Security 101](https://tryhackme.com/certificate/THM-MFXAZOLNRP)  
+**Completato:** 29 ottobre 2026 · **Durata:** 45 h 23 min
+
 Il lavoro rimanente per questo modulo riguarda esclusivamente il **consolidamento del portfolio tramite lab pratici selezionati**.
 
 ➡️ **[Apri Cyber Security 101](01-cyber-security-101/README_IT.md)**
