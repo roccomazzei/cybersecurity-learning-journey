@@ -24,6 +24,9 @@ Hands-on cybersecurity portfolio focused on **TryHackMe**, selected practical la
 
 The full Cyber Security 101 learning path is complete, covering systems, networking, cryptography, exploitation, web security, offensive tooling, defensive security, security solutions, analysis tooling, and OWASP concepts.
 
+🎓 **Certificate of Completion:** [TryHackMe — Cyber Security 101](https://tryhackme.com/certificate/THM-MFXAZOLNRP)  
+**Completed:** 29 October 2026 · **Course duration:** 45h 23m
+
 The remaining work for this module is **portfolio consolidation through selected practical labs**.
 
 ➡️ **[Open Cyber Security 101](01-cyber-security-101/)**
