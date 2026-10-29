@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Cyber%20Security%20101-Final%20block-22c55e?style=for-the-badge" alt="Cyber Security 101 final block">
-  <img src="https://img.shields.io/badge/Current-OWASP%20Top%2010-f59e0b?style=for-the-badge" alt="Current focus OWASP Top 10">
+  <img src="https://img.shields.io/badge/Cyber%20Security%20101-Completed-22c55e?style=for-the-badge" alt="Cyber Security 101 completed">
+  <img src="https://img.shields.io/badge/Current-Portfolio%20Labs-f59e0b?style=for-the-badge" alt="Current focus portfolio labs">
   <img src="https://img.shields.io/badge/Next-SOC%20Level%201-0ea5e9?style=for-the-badge" alt="Next SOC Level 1">
 </p>
 
@@ -20,14 +20,16 @@ Hands-on cybersecurity portfolio focused on **TryHackMe**, selected practical la
 ## 🧭 Learning Paths
 
 ### 01 — Cyber Security 101
-**Status:** Final block — OWASP Top 10
+**Status:** ✅ Completed
 
-General cybersecurity foundations across systems, networking, cryptography, exploitation, web security, offensive tooling, defensive security, security solutions, and analysis tooling.
+The full Cyber Security 101 learning path is complete, covering systems, networking, cryptography, exploitation, web security, offensive tooling, defensive security, security solutions, analysis tooling, and OWASP concepts.
+
+The remaining work for this module is **portfolio consolidation through selected practical labs**.
 
 ➡️ **[Open Cyber Security 101](01-cyber-security-101/)**
 
 ### 02 — SOC Level 1
-**Status:** Next path
+**Status:** ⏭️ Next path
 
 SOC-focused specialization covering monitoring, logs, SIEM, alert triage, network and endpoint analysis, phishing, investigations, escalation, and reporting.
 
@@ -36,20 +38,26 @@ SOC-focused specialization covering monitoring, logs, SIEM, alert triage, networ
 ## 🧪 Portfolio Labs
 
 ### 01 · Basic Network Traffic Analysis
+✅ **Completed**
+
 Packet and protocol analysis with **Wireshark** and **tcpdump**, covering ICMP, DNS, HTTP/HTTPS, TCP handshakes, addressing, routing, and neighbour discovery.
 
 ➡️ **[Open Lab 01](01-cyber-security-101/01-networking/basic-network-traffic-analysis/)**
 
 ### 02 · Cryptography and Password Security
+✅ **Completed**
+
 Hands-on work with **SHA-256**, **Hashcat**, salted password hashes, **AES**, **RSA**, and digital signatures.
 
 ➡️ **[Open Lab 02](01-cyber-security-101/02-cryptography/cryptography-and-password-security/)**
 
 ### 03 · Web Application Security Assessment
-Planned assessment combining **Burp Suite**, web fundamentals, offensive tooling, and **OWASP** concepts in an authorized lab environment.
+🟡 **Next practical milestone**
+
+A complete authorized assessment combining **Burp Suite**, web fundamentals, offensive tooling, SQL injection testing, and **OWASP** concepts.
 
 > [!IMPORTANT]
-> SOC Level 1 will have its own selected investigation labs. I will not create one lab for every module; the goal is a small number of realistic, recruiter-readable investigations.
+> Cyber Security 101 is already complete. The current work is focused on converting the knowledge gained into strong, recruiter-readable portfolio labs before moving into **SOC Level 1**.
 
 ## 🧰 Toolset
 
@@ -71,7 +79,9 @@ Planned assessment combining **Burp Suite**, web fundamentals, offensive tooling
 ## 🛣️ Direction
 
 ```text
-01 — Cyber Security 101
+01 — Cyber Security 101 ✅
+        ↓
+Portfolio Lab Completion
         ↓
 Lab 03 — Web Application Security Assessment
         ↓
