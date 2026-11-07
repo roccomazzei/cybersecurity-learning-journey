@@ -5,7 +5,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Cyber%20Security%20101-Completed-22c55e?style=for-the-badge" alt="Cyber Security 101 completato">
   <img src="https://img.shields.io/badge/Portfolio%20Labs-Completed-22c55e?style=for-the-badge" alt="Portfolio labs completati">
-  <img src="https://img.shields.io/badge/Current-SOC%20Level%201-f59e0b?style=for-the-badge" alt="Focus attuale SOC Level 1">
+  <img src="https://img.shields.io/badge/Next-SOC%20Level%201-0ea5e9?style=for-the-badge" alt="Prossimo percorso SOC Level 1">
 </p>
 
 <p align="center">
@@ -29,7 +29,7 @@ L'intero percorso Cyber Security 101 è completato e ha coperto sistemi, network
 🎓 **Certificate of Completion:** [TryHackMe — Cyber Security 101](https://tryhackme.com/certificate/THM-MFXAZOLNRP)  
 **Completato:** 29 ottobre 2026 · **Durata:** 45 h 23 min
 
-Il lavoro rimanente per questo modulo riguarda esclusivamente il **consolidamento del portfolio tramite lab pratici selezionati**.
+I tre portfolio lab selezionati sono completati: il percorso è quindi chiuso come base tecnica documentata per **SOC Level 1**.
 
 ➡️ **[Apri Cyber Security 101](01-cyber-security-101/README_IT.md)**
 
@@ -64,7 +64,7 @@ Assessment completo e autorizzato che unisce **Burp Suite**, fondamenti web, too
 ➡️ **[Apri Lab 03](01-cyber-security-101/04-web-security/web-application-security-assessment/README_IT.md)**
 
 > [!IMPORTANT]
-> Cyber Security 101 è già completato. Il focus attuale è trasformare le conoscenze acquisite in lab solidi e leggibili da un recruiter prima di passare a **SOC Level 1**.
+> Cyber Security 101 e i tre portfolio lab selezionati sono completati. La prossima fase del portfolio sarà dedicata alle **investigation di SOC Level 1**, con focus su triage, analisi delle evidenze, correlazione e reporting.
 
 ## 🧰 Toolset
 
@@ -88,9 +88,7 @@ Assessment completo e autorizzato che unisce **Burp Suite**, fondamenti web, too
 ```text
 01 — Cyber Security 101 ✅
         ↓
-Completamento Portfolio Labs
-        ↓
-Lab 03 — Web Application Security Assessment
+Lab 01 ✅ · Lab 02 ✅ · Lab 03 ✅
         ↓
 02 — SOC Level 1
         ↓
