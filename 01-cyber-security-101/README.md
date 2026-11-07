@@ -50,6 +50,6 @@ This lab combines web fundamentals, Burp Suite, offensive tooling (Gobuster, SQL
 
 ## ➡️ Next Path
 
-After completing the remaining portfolio lab work:
+Cyber Security 101 and its three selected portfolio labs are complete. The next learning path is:
 
 **[02 — TryHackMe SOC Level 1](../02-soc-level-1/)**
