@@ -4,8 +4,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Cyber%20Security%20101-Completed-22c55e?style=for-the-badge" alt="Cyber Security 101 completato">
-  <img src="https://img.shields.io/badge/Current-Portfolio%20Labs-f59e0b?style=for-the-badge" alt="Focus attuale Portfolio Labs">
-  <img src="https://img.shields.io/badge/Next-SOC%20Level%201-0ea5e9?style=for-the-badge" alt="Prossimo percorso SOC Level 1">
+  <img src="https://img.shields.io/badge/Portfolio%20Labs-Completed-22c55e?style=for-the-badge" alt="Portfolio labs completati">
+  <img src="https://img.shields.io/badge/Current-SOC%20Level%201-f59e0b?style=for-the-badge" alt="Focus attuale SOC Level 1">
 </p>
 
 <p align="center">

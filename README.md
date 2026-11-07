@@ -6,8 +6,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Cyber%20Security%20101-Completed-22c55e?style=for-the-badge" alt="Cyber Security 101 completed">
-  <img src="https://img.shields.io/badge/Current-Portfolio%20Labs-f59e0b?style=for-the-badge" alt="Current focus portfolio labs">
-  <img src="https://img.shields.io/badge/Next-SOC%20Level%201-0ea5e9?style=for-the-badge" alt="Next SOC Level 1">
+  <img src="https://img.shields.io/badge/Portfolio%20Labs-Completed-22c55e?style=for-the-badge" alt="Portfolio labs completed">
+  <img src="https://img.shields.io/badge/Current-SOC%20Level%201-f59e0b?style=for-the-badge" alt="Current focus SOC Level 1">
 </p>
 
 # Cybersecurity Learning Journey

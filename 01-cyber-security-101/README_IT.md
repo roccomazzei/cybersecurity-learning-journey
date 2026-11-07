@@ -3,9 +3,9 @@
 # 🧭 01 — Cyber Security 101
 
 ![Status](https://img.shields.io/badge/Status-Completed-22c55e?style=flat-square)
-![Current](https://img.shields.io/badge/Current-Portfolio%20Labs-f59e0b?style=flat-square)
+![Portfolio](https://img.shields.io/badge/Portfolio%20Labs-Completed-22c55e?style=flat-square)
 
-> L'intero percorso TryHackMe Cyber Security 101 è completato. Il lavoro rimanente è dedicato a trasformare le competenze selezionate in lab pratici da portfolio prima di passare a **SOC Level 1**.
+> L'intero percorso TryHackMe Cyber Security 101 è completato, e tutti e tre i portfolio lab pianificati (analisi del traffico di rete, crittografia, web application security assessment) sono terminati. Questo modulo è ora completamente chiuso; il prossimo passo è **SOC Level 1**.
 
 ## 🎓 Completamento
 
