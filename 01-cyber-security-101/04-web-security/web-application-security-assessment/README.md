@@ -79,6 +79,8 @@ Evidence: [`evidence/03-gobuster-output.txt`](evidence/03-gobuster-output.txt) �
 
 **Finding:** Broken access control on `/admin` — the route performs no authentication or authorization check before serving restricted content.
 
+![Access control finding - /admin reachable with no authentication](screenshots/02-manual-recon-robots-admin.webp)
+
 Evidence: [Screenshot](screenshots/02-manual-recon-robots-admin.webp)
 
 ## Phase 5 — SQL Injection (Manual)
@@ -92,6 +94,8 @@ Evidence: [Screenshot](screenshots/02-manual-recon-robots-admin.webp)
 
 The quote test broke the query syntax and the boolean test returned every row in the `users` table, confirming unsanitized string concatenation in the SQL statement.
 
+![Manual SQL injection - boolean test returning all users](screenshots/06-manual-sql-injection.webp)
+
 Evidence: [`evidence/02-sql-injection-manual.txt`](evidence/02-sql-injection-manual.txt) · [Screenshot](screenshots/06-manual-sql-injection.webp)
 
 ## Phase 6 — SQLMap (Controlled Confirmation)
@@ -101,6 +105,8 @@ sqlmap -u "http://lab03.local:5000/search?q=admin" -p q --batch --level=1 --risk
 ```
 
 SQLMap confirmed the `q` parameter as injectable (UNION query technique) and fingerprinted the back-end DBMS as **SQLite**. Testing was stopped at that point — no `--dump` was performed, consistent with the lab's minimal-impact confirmation goal.
+
+![SQLMap confirming injectable parameter and SQLite back-end DBMS](screenshots/07-sqlmap-confirmation.webp)
 
 Evidence: [`evidence/04-sqlmap-output.txt`](evidence/04-sqlmap-output.txt) · [Screenshot](screenshots/07-sqlmap-confirmation.webp)
 
@@ -115,6 +121,8 @@ hydra -l admin -P lab-passwords.txt lab03.local -s 5000 \
 ```
 
 Hydra recovered the valid password in a single run, with no delay, lockout, or rate limiting from the application. The finding is the weak, predictable credential and the absence of brute-force protection — not that an automated tool "worked."
+
+![Hydra recovering the weak admin password with no rate limiting](screenshots/08-hydra-authentication-testing.webp)
 
 Evidence: [`evidence/05-hydra-output.txt`](evidence/05-hydra-output.txt) · [Screenshot](screenshots/08-hydra-authentication-testing.webp)
 

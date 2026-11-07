@@ -79,6 +79,8 @@ Evidenza: [`evidence/03-gobuster-output.txt`](evidence/03-gobuster-output.txt) �
 
 **Finding:** controllo di accesso assente su `/admin` — la route non esegue alcuna verifica di autenticazione o autorizzazione prima di servire il contenuto riservato.
 
+![Finding access control - /admin raggiungibile senza autenticazione](screenshots/02-manual-recon-robots-admin.webp)
+
 Evidenza: [Screenshot](screenshots/02-manual-recon-robots-admin.webp)
 
 ## Fase 5 — SQL Injection (manuale)
@@ -92,6 +94,8 @@ Evidenza: [Screenshot](screenshots/02-manual-recon-robots-admin.webp)
 
 Il quote test ha rotto la sintassi della query, mentre il boolean test ha restituito ogni riga della tabella `users`, confermando la concatenazione diretta e non sanificata nella query SQL.
 
+![SQL injection manuale - boolean test che restituisce tutti gli utenti](screenshots/06-manual-sql-injection.webp)
+
 Evidenza: [`evidence/02-sql-injection-manual.txt`](evidence/02-sql-injection-manual.txt) · [Screenshot](screenshots/06-manual-sql-injection.webp)
 
 ## Fase 6 — SQLMap (conferma controllata)
@@ -101,6 +105,8 @@ sqlmap -u "http://lab03.local:5000/search?q=admin" -p q --batch --level=1 --risk
 ```
 
 SQLMap ha confermato il parametro `q` come iniettabile (tecnica UNION query) e ha identificato il DBMS come **SQLite**. I test sono stati fermati a questo punto — nessun `--dump` è stato eseguito, coerentemente con l'obiettivo di conferma a basso impatto del lab.
+
+![SQLMap conferma il parametro iniettabile e il DBMS SQLite](screenshots/07-sqlmap-confirmation.webp)
 
 Evidenza: [`evidence/04-sqlmap-output.txt`](evidence/04-sqlmap-output.txt) · [Screenshot](screenshots/07-sqlmap-confirmation.webp)
 
@@ -115,6 +121,8 @@ hydra -l admin -P lab-passwords.txt lab03.local -s 5000 \
 ```
 
 Hydra ha recuperato la password valida in un'unica esecuzione, senza alcun ritardo, lockout o rate limiting da parte dell'applicazione. Il finding è la credenziale debole e prevedibile e l'assenza di protezione anti-bruteforce — non il fatto che uno strumento automatico "funzioni".
+
+![Hydra recupera la password debole dell'admin senza rate limiting](screenshots/08-hydra-authentication-testing.webp)
 
 Evidenza: [`evidence/05-hydra-output.txt`](evidence/05-hydra-output.txt) · [Screenshot](screenshots/08-hydra-authentication-testing.webp)
 
