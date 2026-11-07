@@ -32,7 +32,21 @@ The Kali Linux VM was connected through the `eth0` interface.
 
 ### Network configuration
 
+The basic host and network state was recorded with:
 
+```bash
+ip -br address
+ip route
+ip neigh
+```
+
+Evidence:
+
+- [Interface and IP addresses](evidence/01-ip-addresses.txt)
+- [Routing table](evidence/02-routing-table.txt)
+- [Neighbour table](evidence/03-neighbour-table.txt)
+
+These outputs confirm that `eth0` was active with `10.211.55.5/24`, the default route pointed to `10.211.55.1`, and the gateway was present in the neighbour table.
 
 ## Traffic Generation
 
