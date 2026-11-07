@@ -30,6 +30,24 @@ La VM Kali Linux era connessa tramite l'interfaccia `eth0`.
 
 > Gli indirizzi mostrati appartengono a una rete virtualizzata e isolata di laboratorio.
 
+### Configurazione di rete
+
+Lo stato di base dell'host e della rete è stato registrato con:
+
+```bash
+ip -br address
+ip route
+ip neigh
+```
+
+Evidenze:
+
+- [Interfacce e indirizzi IP](evidence/01-ip-addresses.txt)
+- [Tabella di routing](evidence/02-routing-table.txt)
+- [Tabella dei neighbour](evidence/03-neighbour-table.txt)
+
+Gli output confermano che `eth0` era attiva con `10.211.55.5/24`, la default route puntava a `10.211.55.1` e il gateway era presente nella neighbour table.
+
 ## Generazione del traffico
 
 Il traffico è stato generato intenzionalmente con normali strumenti di rete.
