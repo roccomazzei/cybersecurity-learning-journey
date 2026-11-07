@@ -26,6 +26,6 @@
 
 `Hydra` · `Gobuster` · `Netcat` · `SQLMap`
 
-## 🧪 Portfolio Direction
+## 🧪 Portfolio Application
 
-Relevant techniques from this section will feed into **Lab 03 — Web Application Security Assessment** rather than becoming four separate tool demos.
+Relevant techniques from this section were applied in **[Lab 03 — Web Application Security Assessment](../04-web-security/web-application-security-assessment/)**, where Gobuster, SQLMap and Hydra were used as part of a broader manual-first assessment workflow rather than as isolated tool demonstrations.
