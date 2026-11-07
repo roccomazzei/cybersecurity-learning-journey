@@ -44,6 +44,17 @@ python app.py   # serves on http://127.0.0.1:5000
 | 7 | Authentication testing — Hydra |
 | 8 | OWASP mapping and remediation |
 
+## Findings at a Glance
+
+| Finding | Validation | Qualitative severity* |
+|---|---|:---:|
+| Unauthenticated access to `/admin` | Direct request returned restricted content with `200 OK` | **High** |
+| SQL injection in `q` | Manual boolean test + SQLMap confirmation | **High** |
+| Weak admin password and no rate limiting | Manual login + controlled Hydra test | **Medium** |
+| Detailed SQL errors exposed to the client | Single-quote test returned database error details | **Low** |
+
+*Severity is a qualitative assessment for this intentionally vulnerable local lab and is not a formal CVSS score.
+
 ## Phase 1 — Baseline HTTP
 
 All five discovered endpoints (`/`, `/login`, `/search`, `/robots.txt`, `/admin`) responded `200 OK`. Notably, `/admin` returned its full content with no authentication prompt at all, and `robots.txt` itself discloses the path via a `Disallow: /admin` entry — a reminder that `robots.txt` is a convention for crawlers, not an access control mechanism.
@@ -133,7 +144,7 @@ Evidence: [`evidence/05-hydra-output.txt`](evidence/05-hydra-output.txt) · [Scr
 | `/admin` reachable with no auth check | **A01 — Broken Access Control** | Require server-side authentication and authorization; deny by default |
 | SQL injection via `q` on `/search` | **A05 — Injection** | Parameterized queries / prepared statements; input validation |
 | Weak password, no brute-force protection | **A07 — Authentication Failures** | Password policy, rate limiting, controlled lockout, MFA where appropriate |
-| Raw SQL error returned to the client | **A02 — Security Misconfiguration** | Generic client-facing error messages; details logged server-side only |
+| Raw SQL error returned to the client | **A10 — Mishandling of Exceptional Conditions** | Handle exceptions safely; return generic client-facing errors and log technical details server-side |
 
 ## Key Takeaways
 
