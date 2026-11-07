@@ -7,7 +7,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Cyber%20Security%20101-Completed-22c55e?style=for-the-badge" alt="Cyber Security 101 completed">
   <img src="https://img.shields.io/badge/Portfolio%20Labs-Completed-22c55e?style=for-the-badge" alt="Portfolio labs completed">
-  <img src="https://img.shields.io/badge/Current-SOC%20Level%201-f59e0b?style=for-the-badge" alt="Current focus SOC Level 1">
+  <img src="https://img.shields.io/badge/Next-SOC%20Level%201-0ea5e9?style=for-the-badge" alt="Next path SOC Level 1">
 </p>
 
 # Cybersecurity Learning Journey
@@ -27,7 +27,7 @@ The full Cyber Security 101 learning path is complete, covering systems, network
 🎓 **Certificate of Completion:** [TryHackMe — Cyber Security 101](https://tryhackme.com/certificate/THM-MFXAZOLNRP)  
 **Completed:** 29 October 2026 · **Course duration:** 45h 23m
 
-The remaining work for this module is **portfolio consolidation through selected practical labs**.
+The three selected portfolio labs are complete, closing this learning path as a documented technical foundation for **SOC Level 1**.
 
 ➡️ **[Open Cyber Security 101](01-cyber-security-101/)**
 
@@ -62,7 +62,7 @@ A complete authorized assessment combining **Burp Suite**, web fundamentals, off
 ➡️ **[Open Lab 03](01-cyber-security-101/04-web-security/web-application-security-assessment/)**
 
 > [!IMPORTANT]
-> Cyber Security 101 is already complete. The current work is focused on converting the knowledge gained into strong, recruiter-readable portfolio labs before moving into **SOC Level 1**.
+> Cyber Security 101 and its three selected portfolio labs are complete. The next portfolio phase will focus on **SOC Level 1 investigations** that demonstrate triage, evidence analysis, correlation, and reporting.
 
 ## 🧰 Toolset
 
@@ -86,9 +86,7 @@ A complete authorized assessment combining **Burp Suite**, web fundamentals, off
 ```text
 01 — Cyber Security 101 ✅
         ↓
-Portfolio Lab Completion
-        ↓
-Lab 03 — Web Application Security Assessment
+Lab 01 ✅ · Lab 02 ✅ · Lab 03 ✅
         ↓
 02 — SOC Level 1
         ↓
