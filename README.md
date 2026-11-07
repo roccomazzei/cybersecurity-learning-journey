@@ -55,9 +55,11 @@ Hands-on work with **SHA-256**, **Hashcat**, salted password hashes, **AES**, **
 ➡️ **[Open Lab 02](01-cyber-security-101/02-cryptography/cryptography-and-password-security/)**
 
 ### 03 · Web Application Security Assessment
-🟡 **Next practical milestone**
+✅ **Completed**
 
-A complete authorized assessment combining **Burp Suite**, web fundamentals, offensive tooling, SQL injection testing, and **OWASP** concepts.
+A complete authorized assessment combining **Burp Suite**, web fundamentals, offensive tooling (**Gobuster**, **SQLMap**, **Hydra**), manual SQL injection testing, and **OWASP Top 10 (2025)** risk classification.
+
+➡️ **[Open Lab 03](01-cyber-security-101/04-web-security/web-application-security-assessment/)**
 
 > [!IMPORTANT]
 > Cyber Security 101 is already complete. The current work is focused on converting the knowledge gained into strong, recruiter-readable portfolio labs before moving into **SOC Level 1**.

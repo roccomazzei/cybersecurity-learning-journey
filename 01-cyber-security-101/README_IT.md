@@ -40,9 +40,10 @@ Completato il **29 ottobre 2026** · **45 h 23 min**
 ➡️ **[Apri Lab 02](02-cryptography/cryptography-and-password-security/README_IT.md)**
 
 ### Lab 03 — Web Application Security Assessment
-🟡 Prossimo traguardo pratico
+✅ Completato
+➡️ **[Apri Lab 03](04-web-security/web-application-security-assessment/README_IT.md)**
 
-Questo lab unirà fondamenti web, Burp Suite, tooling offensivo, test SQL injection e concetti OWASP in un assessment completo.
+Questo lab unisce fondamenti web, Burp Suite, tooling offensivo (Gobuster, SQLMap, Hydra), test manuali di SQL injection e classificazione del rischio con OWASP Top 10 (2025) in un assessment completo.
 
 > [!IMPORTANT]
 > Cyber Security 101 è completato. I lab servono a consolidare e dimostrare le competenze acquisite, non a tracciare il completamento del corso.

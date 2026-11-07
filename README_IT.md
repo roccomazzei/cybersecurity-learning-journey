@@ -57,9 +57,11 @@ Attività pratiche con **SHA-256**, **Hashcat**, hash con salt, **AES**, **RSA**
 ➡️ **[Apri Lab 02](01-cyber-security-101/02-cryptography/cryptography-and-password-security/README_IT.md)**
 
 ### 03 · Web Application Security Assessment
-🟡 **Prossimo traguardo pratico**
+✅ **Completato**
 
-Assessment completo e autorizzato che unirà **Burp Suite**, fondamenti web, tooling offensivo, test SQL injection e concetti **OWASP**.
+Assessment completo e autorizzato che unisce **Burp Suite**, fondamenti web, tooling offensivo (**Gobuster**, **SQLMap**, **Hydra**), test manuali di SQL injection e classificazione del rischio con **OWASP Top 10 (2025)**.
+
+➡️ **[Apri Lab 03](01-cyber-security-101/04-web-security/web-application-security-assessment/README_IT.md)**
 
 > [!IMPORTANT]
 > Cyber Security 101 è già completato. Il focus attuale è trasformare le conoscenze acquisite in lab solidi e leggibili da un recruiter prima di passare a **SOC Level 1**.

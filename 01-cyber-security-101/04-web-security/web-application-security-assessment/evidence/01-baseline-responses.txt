@@ -1,0 +1,46 @@
+Baseline HTTP responses - target application
+Date: 2026-11-07
+Target: http://lab03.local:5000 (127.0.0.1)
+
+$ curl -i http://lab03.local:5000/
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+
+<h1>Lab 03 - Vulnerable Web Application</h1>
+<ul>
+    <li><a href="/login">Login</a></li>
+    <li><a href="/search?q=admin">User Search</a></li>
+</ul>
+
+$ curl -i http://lab03.local:5000/login
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+
+<form method="POST">
+    Username: <input name="username"><br>
+    Password: <input name="password" type="password"><br>
+    <input type="submit" value="Login">
+</form>
+
+$ curl -i http://lab03.local:5000/search?q=admin
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+
+<h1>Search results</h1><p>admin - admin@lab.local</p>
+
+$ curl -i http://lab03.local:5000/robots.txt
+HTTP/1.1 200 OK
+Content-Type: text/plain
+
+User-agent: *
+Disallow: /admin
+
+$ curl -i http://lab03.local:5000/admin
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+
+<h1>Administration Panel</h1><p>Restricted area</p>
+
+Observation: all five endpoints respond 200 OK. /admin is reachable with no
+authentication of any kind, and is also disclosed by robots.txt itself via
+its Disallow entry.

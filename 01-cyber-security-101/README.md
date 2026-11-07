@@ -40,9 +40,10 @@ Completed on **29 October 2026** · **45h 23m**
 ➡️ **[Open Lab 02](02-cryptography/cryptography-and-password-security/)**
 
 ### Lab 03 — Web Application Security Assessment
-🟡 Next practical milestone
+✅ Completed
+➡️ **[Open Lab 03](04-web-security/web-application-security-assessment/)**
 
-This lab will combine web fundamentals, Burp Suite, offensive tooling, SQL injection testing, and OWASP concepts into one complete assessment.
+This lab combines web fundamentals, Burp Suite, offensive tooling (Gobuster, SQLMap, Hydra), manual SQL injection testing, and OWASP Top 10 (2025) risk classification into one complete assessment.
 
 > [!IMPORTANT]
 > Cyber Security 101 is complete. Portfolio labs are used to consolidate and demonstrate the skills learned rather than to track course completion.
