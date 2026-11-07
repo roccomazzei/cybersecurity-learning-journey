@@ -1,7 +1,7 @@
 # 🌍 04 — Web Security
 
 ![Status](https://img.shields.io/badge/Status-Completed-22c55e?style=flat-square)
-![Lab](https://img.shields.io/badge/Feeds-Lab%2003-0ea5e9?style=flat-square)
+![Lab](https://img.shields.io/badge/Portfolio-Lab%2003%20Completed-22c55e?style=flat-square)
 
 > Understanding how browsers, web servers, back-end applications, and databases communicate — and where security weaknesses can appear.
 
@@ -27,11 +27,13 @@
 
 `HTTP` · `JavaScript` · `SQL` · `Burp Suite Proxy` · `Burp Repeater`
 
-## 🧪 Portfolio Direction
+## 🧪 Portfolio Application
 
-This material will be combined with **Offensive Security Tooling** and **OWASP Top 10** in:
+The skills from this section were applied together with **Offensive Security Tooling** and **OWASP Top 10** in:
 
-### Lab 03 — Web Application Security Assessment
+### [Lab 03 — Web Application Security Assessment](web-application-security-assessment/)
+
+The completed assessment demonstrates HTTP reconnaissance, Burp Proxy and Repeater, content discovery, manual SQL injection verification, controlled automation, OWASP mapping, and remediation.
 
 > [!NOTE]
-> The goal is one complete, recruiter-readable assessment rather than separate mini-labs for Burp, SQL, or individual web topics.
+> One complete assessment provides stronger portfolio evidence than separate mini-labs for Burp, SQL, or individual web topics.
