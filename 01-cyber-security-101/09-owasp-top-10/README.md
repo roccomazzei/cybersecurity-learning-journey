@@ -26,9 +26,11 @@ OWASP Risk Classification
 Lab 03 — Web Application Security Assessment
 ```
 
-## 🧪 Portfolio Direction
+## 🧪 Portfolio Application
 
-The strongest concepts from this completed section will now be combined with the completed Web Security and Offensive Security Tooling sections in **Lab 03**.
+The strongest concepts from this section were applied with Web Security and Offensive Security Tooling in **[Lab 03 — Web Application Security Assessment](../04-web-security/web-application-security-assessment/)**.
+
+The completed lab maps observed findings to **OWASP Top 10:2025** categories and includes practical remediation recommendations.
 
 > [!IMPORTANT]
-> Cyber Security 101 is complete. The objective now is a complete assessment workflow — not a separate lab for every OWASP category.
+> Cyber Security 101 is complete. OWASP concepts are demonstrated through a complete assessment workflow rather than a separate lab for every category.
