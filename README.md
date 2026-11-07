@@ -95,4 +95,4 @@ Selected SOC Investigation Labs
 SOC Analyst / Incident Response
 ```
 
-Detailed system-administration work is kept in my separate **IT Systems Administration Labs** repository to avoid duplication.
+Detailed system-administration work is kept in my separate **[IT Systems Administration Labs](https://github.com/roccomazzei/it-systems-administration-labs)** repository to avoid duplication.
