@@ -8,6 +8,8 @@
 
 > Dedicated SOC Analyst learning path focused on monitoring, triage, investigation, detection, and incident handling.
 
+➡️ **[Official TryHackMe SOC Level 1 path](https://tryhackme.com/path/outline/soclevel1)**
+
 ## 🎯 What This Path Builds
 
 - SOC operations and analyst workflows
