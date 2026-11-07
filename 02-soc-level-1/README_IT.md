@@ -8,6 +8,8 @@
 
 > Percorso dedicato al lavoro da SOC Analyst, con focus su monitoraggio, triage, investigation, detection e gestione degli incidenti.
 
+➡️ **[Percorso ufficiale TryHackMe SOC Level 1](https://tryhackme.com/path/outline/soclevel1)**
+
 ## 🎯 Competenze sviluppate
 
 - operatività e workflow di un SOC
