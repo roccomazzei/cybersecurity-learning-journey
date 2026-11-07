@@ -44,6 +44,17 @@ python app.py   # in ascolto su http://127.0.0.1:5000
 | 7 | Test di autenticazione — Hydra |
 | 8 | Mappatura OWASP e remediation |
 
+## Finding in sintesi
+
+| Finding | Validazione | Severità qualitativa* |
+|---|---|:---:|
+| Accesso non autenticato a `/admin` | Richiesta diretta con contenuto riservato restituito in `200 OK` | **Alta** |
+| SQL injection nel parametro `q` | Test booleano manuale + conferma SQLMap | **Alta** |
+| Password admin debole e assenza di rate limiting | Login manuale + test Hydra controllato | **Media** |
+| Errori SQL dettagliati esposti al client | Il test con apice singolo restituisce dettagli dell'errore database | **Bassa** |
+
+*La severità è una valutazione qualitativa riferita a questo lab locale intenzionalmente vulnerabile e non rappresenta un punteggio CVSS formale.
+
 ## Fase 1 — Baseline HTTP
 
 Tutti e cinque gli endpoint individuati (`/`, `/login`, `/search`, `/robots.txt`, `/admin`) hanno risposto `200 OK`. In particolare, `/admin` ha restituito il contenuto completo senza alcuna richiesta di autenticazione, e lo stesso `robots.txt` rivela il path tramite la voce `Disallow: /admin` — un promemoria che `robots.txt` è una convenzione per i crawler, non un meccanismo di controllo accessi.
@@ -133,7 +144,7 @@ Evidenza: [`evidence/05-hydra-output.txt`](evidence/05-hydra-output.txt) · [Scr
 | `/admin` raggiungibile senza autenticazione | **A01 — Broken Access Control** | Richiedere autenticazione e autorizzazione server-side; deny by default |
 | SQL injection via `q` su `/search` | **A05 — Injection** | Query parametrizzate / prepared statements; validazione input |
 | Password debole, nessuna protezione anti-bruteforce | **A07 — Authentication Failures** | Password policy, rate limiting, lockout controllato, MFA dove opportuno |
-| Errore SQL grezzo restituito al client | **A02 — Security Misconfiguration** | Messaggi di errore generici lato client; dettagli solo nei log server |
+| Errore SQL grezzo restituito al client | **A10 — Mishandling of Exceptional Conditions** | Gestire le eccezioni in modo sicuro; messaggi generici al client e dettagli tecnici solo nei log server |
 
 ## Concetti chiave
 
